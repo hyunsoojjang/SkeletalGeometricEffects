@@ -71,7 +71,7 @@ namespace NuitrackSDK
                 {
                     get
                     {
-                        return RawJoint.ToVector3Flipped() * 0.001f;
+                        return RawJoint.ToVector3() * 0.001f;
                     }
                 }
 

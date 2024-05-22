@@ -15,11 +15,11 @@ C:/Users/Daniel/SkeletalGeometricEffects
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62049
+62455
 Successfully changed project path to: C:/Users/Daniel/SkeletalGeometricEffects
 C:/Users/Daniel/SkeletalGeometricEffects
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 21.68 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 21.85 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.41f1 (7c19dc9acfda)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.41f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.41f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.41f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.41f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.41f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001330 seconds.
+Registered in 0.001390 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 21.23 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 20.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.360 seconds
+- Completed reload, in  0.362 seconds
 Domain Reload Profiling:
-	ReloadAssembly (361ms)
-		BeginReloadAssembly (45ms)
+	ReloadAssembly (362ms)
+		BeginReloadAssembly (47ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (270ms)
-			LoadAssemblies (44ms)
+		EndReloadAssembly (268ms)
+			LoadAssemblies (46ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (85ms)
+			SetupTypeCache (82ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (101ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (102ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (21ms)
+				RefreshPlugins (20ms)
 				BeforeProcessingInitializeOnLoad (10ms)
-				ProcessInitializeOnLoadAttributes (50ms)
+				ProcessInitializeOnLoadAttributes (52ms)
 				ProcessInitializeOnLoadMethodAttributes (17ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -73,10 +73,10 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001805 seconds.
+Registered in 0.002018 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 <color=green><b>Test Nuitrack (ver.3706) init was successful! (type: Runtime)</b></color>
 Current Scripting Backend Mono2x  Target:Standalone
@@ -93,29 +93,29 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 (Filename: Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs Line: 89)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.039 seconds
+- Completed reload, in  1.770 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2040ms)
-		BeginReloadAssembly (143ms)
+	ReloadAssembly (1771ms)
+		BeginReloadAssembly (95ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (13ms)
-		EndReloadAssembly (1855ms)
-			LoadAssemblies (74ms)
+		EndReloadAssembly (1632ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (149ms)
+			SetupTypeCache (125ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (1555ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (1372ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (1478ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (1297ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -124,14 +124,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1567 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.9 MB.
-System memory in use after: 89.0 MB.
+Unloading 1560 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.2 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2016.
-Total: 1.705500 ms (FindLiveObjects: 0.085900 ms CreateObjectMapping: 0.026400 ms MarkObjects: 1.533000 ms  DeleteObjects: 0.059200 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2011.
+Total: 1.751800 ms (FindLiveObjects: 0.082400 ms CreateObjectMapping: 0.028100 ms MarkObjects: 1.580100 ms  DeleteObjects: 0.060600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -146,46 +146,58 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Klak/Motion/SmoothFollow.cs
-  artifactKey: Guid(e4ef71f4c0c4a3d4f944b58607bd2969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Klak/Motion/SmoothFollow.cs using Guid(e4ef71f4c0c4a3d4f944b58607bd2969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45ab8d32375ade7c4f4a0cb0a2e3579') in 0.025480 seconds 
+  path: Assets/Test/Sk.unity
+  artifactKey: Guid(3d3684d4ddf1e394385df6845e75a31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/Sk.unity using Guid(3d3684d4ddf1e394385df6845e75a31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa083748d8085ccaa5821563ebe01fae') in 0.011874 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.673246 seconds.
-  path: Assets/Klak/Motion/Editor/BrownianMotionEditor.cs
-  artifactKey: Guid(188b008edd725e944b3207901be6fdc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Klak/Motion/Editor/BrownianMotionEditor.cs using Guid(188b008edd725e944b3207901be6fdc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc5bfeab1c4dc79529b30285251621b') in 0.011817 seconds 
+  Time since last request: 4.851284 seconds.
+  path: Assets/Test/TestSkinner.unity
+  artifactKey: Guid(3d3684d4ddf1e394385df6845e75a31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/TestSkinner.unity using Guid(3d3684d4ddf1e394385df6845e75a31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63f00bb6644ac029c5f93494b086ca1') in 0.008958 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.846611 seconds.
-  path: Assets/Klak/Motion/Editor/ConstantMotionEditor.cs
-  artifactKey: Guid(235776bcd9e7bbe4f8c96be5b5e3a06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Klak/Motion/Editor/ConstantMotionEditor.cs using Guid(235776bcd9e7bbe4f8c96be5b5e3a06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f062dd94e899046f7cfca4417281304') in 0.009811 seconds 
+  Time since last request: 1.065595 seconds.
+  path: Assets/sIBL Archive/LA_Downtown_Helipad_GoldenHour_Env.hdr
+  artifactKey: Guid(a484b152a713c486e98ed7a992f53a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sIBL Archive/LA_Downtown_Helipad_GoldenHour_Env.hdr using Guid(a484b152a713c486e98ed7a992f53a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e09094797128e9ec3e1a4033cd7f82b') in 0.134206 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.488287 seconds.
-  path: Assets/Klak/Math/Editor/InterpolatorConfigDrawer.cs
-  artifactKey: Guid(0c4c63a9a914fa240a5b91860b2f93e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Klak/Math/Editor/InterpolatorConfigDrawer.cs using Guid(0c4c63a9a914fa240a5b91860b2f93e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43d3e0067c1edbdb7f81f61e7b9f395') in 0.008942 seconds 
+  Time since last request: 0.548239 seconds.
+  path: Assets/Test/TestSkinner 1.unity
+  artifactKey: Guid(819f862246da8f1489fcc8a2c225d613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/TestSkinner 1.unity using Guid(819f862246da8f1489fcc8a2c225d613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1eef90fac45032339b6311788dfe1a') in 0.012235 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 63.241921 seconds.
-  path: Assets/PostProcessing/Editor/Utils/CurveEditor.cs
-  artifactKey: Guid(afb349ef0bffd144db2bdd25630f648e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PostProcessing/Editor/Utils/CurveEditor.cs using Guid(afb349ef0bffd144db2bdd25630f648e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9bd36f87b466fbaa9c0cb5b96c23cd1') in 0.010300 seconds 
+  Time since last request: 9.261423 seconds.
+  path: Assets/Test/TestSkinnrDev.unity
+  artifactKey: Guid(819f862246da8f1489fcc8a2c225d613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/TestSkinnrDev.unity using Guid(819f862246da8f1489fcc8a2c225d613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0260c613267c40b442d3a9156820fac6') in 0.009022 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.211967 seconds.
-  path: Assets/PostProcessing/Editor/Models/ColorGradingModelEditor.cs
-  artifactKey: Guid(c3e3bce1d5c900d4fa7aa0f2b21814cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PostProcessing/Editor/Models/ColorGradingModelEditor.cs using Guid(c3e3bce1d5c900d4fa7aa0f2b21814cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '863eb22450d7afc0ad3fa7dff50fe3fe') in 0.010158 seconds 
+  Time since last request: 6.040595 seconds.
+  path: Assets/Test.playable
+  artifactKey: Guid(ab1dc9971ba6b914d921908883527dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test.playable using Guid(ab1dc9971ba6b914d921908883527dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde30359df16908be946ab48f95b5e01') in 0.024104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.589996 seconds.
+  path: Assets/NuitrackSDK/Tutorials/Virtual Fitting Room/Final Assets/Virtual Fitting Room.unity
+  artifactKey: Guid(f41bffd4a39754a49abb21bd624056b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NuitrackSDK/Tutorials/Virtual Fitting Room/Final Assets/Virtual Fitting Room.unity using Guid(f41bffd4a39754a49abb21bd624056b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39df3a078408043ed0424faa9287f502') in 0.009616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.558324 seconds.
+  path: Assets/TestMulti.unity
+  artifactKey: Guid(f41bffd4a39754a49abb21bd624056b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TestMulti.unity using Guid(f41bffd4a39754a49abb21bd624056b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcecd7aaa3b14f71159bb10becb39256') in 0.009721 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001661 seconds.
+Registered in 0.001775 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 <color=green><b>Test Nuitrack (ver.3706) init was successful! (type: Runtime)</b></color>
 Current Scripting Backend Mono2x  Target:Standalone
@@ -202,28 +214,265 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 (Filename: Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs Line: 89)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.562 seconds
+- Completed reload, in  0.544 seconds
 Domain Reload Profiling:
-	ReloadAssembly (562ms)
-		BeginReloadAssembly (78ms)
+	ReloadAssembly (544ms)
+		BeginReloadAssembly (80ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (440ms)
-			LoadAssemblies (68ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (421ms)
+			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (125ms)
+			SetupTypeCache (115ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (181ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (179ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (115ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (1ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1470 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.8 MB.
+System memory in use after: 83.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2047.
+Total: 1.655000 ms (FindLiveObjects: 0.104500 ms CreateObjectMapping: 0.024300 ms MarkObjects: 1.510700 ms  DeleteObjects: 0.015000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001761 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+<color=green><b>Test Nuitrack (ver.3706) init was successful! (type: Runtime)</b></color>
+Current Scripting Backend Mono2x  Target:Standalone
+Device  [Sensor Name: Intel RealSense L515, License: TRIAL]
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:PingNuitrack () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:89)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:.cctor () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs Line: 89)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.542 seconds
+Domain Reload Profiling:
+	ReloadAssembly (543ms)
+		BeginReloadAssembly (76ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (426ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (115ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (175ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (52ms)
-				ProcessInitializeOnLoadAttributes (113ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (108ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (1ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1470 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.9 MB.
+System memory in use after: 84.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2050.
+Total: 1.970200 ms (FindLiveObjects: 0.187900 ms CreateObjectMapping: 0.031000 ms MarkObjects: 1.731700 ms  DeleteObjects: 0.018900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 247.799117 seconds.
+  path: Assets/Test/Concrete Albedo.tga
+  artifactKey: Guid(96673f8e78466cd429bae3c15e0a1a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/Concrete Albedo.tga using Guid(96673f8e78466cd429bae3c15e0a1a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa6ece02d1bcf80b3a88cb569d9322f') in 0.097632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Test/Concrete Normal.tga
+  artifactKey: Guid(c217610a019457c42bc5d412d88afd2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/Concrete Normal.tga using Guid(c217610a019457c42bc5d412d88afd2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda932c13b9494f1a1c5839878bab030') in 0.035977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.207597 seconds.
+  path: Assets/NeoLowMan/Neo.fbx
+  artifactKey: Guid(a72a38cd61e7f0a4b85e8d34fd356df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NeoLowMan/Neo.fbx using Guid(a72a38cd61e7f0a4b85e8d34fd356df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e5a48559205c09822817ddc81943f1') in 0.118435 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001621 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+<color=green><b>Test Nuitrack (ver.3706) init was successful! (type: Runtime)</b></color>
+Current Scripting Backend Mono2x  Target:Standalone
+Device  [Sensor Name: Intel RealSense L515, License: TRIAL]
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:PingNuitrack () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:89)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:.cctor () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs Line: 89)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.530 seconds
+Domain Reload Profiling:
+	ReloadAssembly (530ms)
+		BeginReloadAssembly (72ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (418ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (110ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (182ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (116ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (1ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1470 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.4 MB.
+System memory in use after: 97.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2062.
+Total: 1.691000 ms (FindLiveObjects: 0.105900 ms CreateObjectMapping: 0.024500 ms MarkObjects: 1.542300 ms  DeleteObjects: 0.017600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16.680571 seconds.
+  path: Assets/NeoLowMan/New Skinner Model.asset
+  artifactKey: Guid(96dfee434624c9d4bad25518f75a0e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NeoLowMan/New Skinner Model.asset using Guid(96dfee434624c9d4bad25518f75a0e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d9e51eb362f8d2a3beade0b84c7488') in 0.056806 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001762 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+<color=green><b>Test Nuitrack (ver.3706) init was successful! (type: Runtime)</b></color>
+Current Scripting Backend Mono2x  Target:Standalone
+Device  [Sensor Name: Intel RealSense L515, License: TRIAL]
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:PingNuitrack () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:89)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:.cctor () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs Line: 89)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.533 seconds
+Domain Reload Profiling:
+	ReloadAssembly (533ms)
+		BeginReloadAssembly (79ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (411ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (110ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (172ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (108ms)
 				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
@@ -233,11 +482,11 @@ Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1470 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.3 MB.
-System memory in use after: 80.4 MB.
+System memory in use before: 97.5 MB.
+System memory in use after: 97.6 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2018.
-Total: 1.723000 ms (FindLiveObjects: 0.086300 ms CreateObjectMapping: 0.028500 ms MarkObjects: 1.585800 ms  DeleteObjects: 0.021800 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2066.
+Total: 1.695500 ms (FindLiveObjects: 0.084300 ms CreateObjectMapping: 0.023600 ms MarkObjects: 1.572100 ms  DeleteObjects: 0.014900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -251,45 +500,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 33.865326 seconds.
-  path: Assets/Skinner/Models
-  artifactKey: Guid(5e9ddd961a85982459585f78ce91615b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skinner/Models using Guid(5e9ddd961a85982459585f78ce91615b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d622aa5849f0162009ef692283b8ce0') in 0.024109 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.328804 seconds.
-  path: Assets/Skinner/Internal
-  artifactKey: Guid(bd4e1227f1de6d64583664338a62e6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skinner/Internal using Guid(bd4e1227f1de6d64583664338a62e6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09a4e484e7ec454c03729fd5c099f13') in 0.009584 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.828144 seconds.
-  path: Assets/Skinner/Shader
-  artifactKey: Guid(49977a250cf70454fb99e5a2e83b983e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skinner/Shader using Guid(49977a250cf70454fb99e5a2e83b983e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5e4fe4d03892764fb3ee1aa2e659d1') in 0.008981 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.872940 seconds.
-  path: Assets/Skinner
-  artifactKey: Guid(29add8347e8ec7a4cb7e509c8cebcabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skinner using Guid(29add8347e8ec7a4cb7e509c8cebcabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85a200d687f23aa549d285aaab891bb') in 0.008151 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.291440 seconds.
-  path: Assets/Skinner/Editor
-  artifactKey: Guid(9982d4dbb8daefb4a8605f54509c1e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skinner/Editor using Guid(9982d4dbb8daefb4a8605f54509c1e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c056cfa69153fa38b4b9fa3b302fe3df') in 0.009093 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.653808 seconds.
-  path: Assets/Test/Test.unity
-  artifactKey: Guid(3d3684d4ddf1e394385df6845e75a31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Test/Test.unity using Guid(3d3684d4ddf1e394385df6845e75a31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e5402cd8404c76822ef13eaa06997d') in 0.010845 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001885 seconds.
+Registered in 0.001889 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
@@ -309,29 +522,29 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 (Filename: Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs Line: 89)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.562 seconds
+- Completed reload, in  0.695 seconds
 Domain Reload Profiling:
-	ReloadAssembly (563ms)
-		BeginReloadAssembly (79ms)
+	ReloadAssembly (695ms)
+		BeginReloadAssembly (76ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (444ms)
-			LoadAssemblies (68ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (578ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (115ms)
+			SetupTypeCache (111ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (198ms)
+			SetupLoadedEditorAssemblies (338ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (49ms)
-				ProcessInitializeOnLoadAttributes (132ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (277ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -340,11 +553,11 @@ Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1470 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.4 MB.
-System memory in use after: 80.5 MB.
+System memory in use before: 97.5 MB.
+System memory in use after: 97.6 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2021.
-Total: 1.671600 ms (FindLiveObjects: 0.080300 ms CreateObjectMapping: 0.024500 ms MarkObjects: 1.547000 ms  DeleteObjects: 0.019100 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2069.
+Total: 1.706200 ms (FindLiveObjects: 0.114200 ms CreateObjectMapping: 0.024600 ms MarkObjects: 1.548900 ms  DeleteObjects: 0.017800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -360,7 +573,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001703 seconds.
+Registered in 0.001737 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
@@ -380,30 +593,172 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 (Filename: Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs Line: 89)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.524 seconds
+- Completed reload, in  0.542 seconds
 Domain Reload Profiling:
-	ReloadAssembly (524ms)
+	ReloadAssembly (542ms)
+		BeginReloadAssembly (74ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (428ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (123ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (175ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (113ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (1ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1470 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.5 MB.
+System memory in use after: 97.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2072.
+Total: 1.716000 ms (FindLiveObjects: 0.105900 ms CreateObjectMapping: 0.029900 ms MarkObjects: 1.561800 ms  DeleteObjects: 0.017700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001824 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+<color=green><b>Test Nuitrack (ver.3706) init was successful! (type: Runtime)</b></color>
+Current Scripting Backend Mono2x  Target:Standalone
+Device  [Sensor Name: Intel RealSense L515, License: TRIAL]
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:PingNuitrack () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:89)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:.cctor () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs Line: 89)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.551 seconds
+Domain Reload Profiling:
+	ReloadAssembly (552ms)
 		BeginReloadAssembly (73ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (413ms)
-			LoadAssemblies (65ms)
+		EndReloadAssembly (441ms)
+			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (114ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (173ms)
+			SetupLoadedEditorAssemblies (203ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (47ms)
-				ProcessInitializeOnLoadAttributes (109ms)
+				ProcessInitializeOnLoadAttributes (139ms)
 				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (1ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1470 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.5 MB.
+System memory in use after: 97.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2075.
+Total: 1.718400 ms (FindLiveObjects: 0.087000 ms CreateObjectMapping: 0.024300 ms MarkObjects: 1.589300 ms  DeleteObjects: 0.017300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003587 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+<color=green><b>Test Nuitrack (ver.3706) init was successful! (type: Runtime)</b></color>
+Current Scripting Backend Mono2x  Target:Standalone
+Device  [Sensor Name: Intel RealSense L515, License: TRIAL]
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:PingNuitrack () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:89)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:.cctor () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs Line: 89)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.725 seconds
+Domain Reload Profiling:
+	ReloadAssembly (726ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (568ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (141ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (211ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (129ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (1ms)
@@ -411,11 +766,153 @@ Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1470 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.4 MB.
-System memory in use after: 80.5 MB.
+System memory in use before: 97.5 MB.
+System memory in use after: 97.6 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2024.
-Total: 1.694200 ms (FindLiveObjects: 0.101900 ms CreateObjectMapping: 0.024700 ms MarkObjects: 1.549400 ms  DeleteObjects: 0.017500 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2078.
+Total: 1.717000 ms (FindLiveObjects: 0.103600 ms CreateObjectMapping: 0.024100 ms MarkObjects: 1.568800 ms  DeleteObjects: 0.019500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002521 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+<color=green><b>Test Nuitrack (ver.3706) init was successful! (type: Runtime)</b></color>
+Current Scripting Backend Mono2x  Target:Standalone
+Device  [Sensor Name: Intel RealSense L515, License: TRIAL]
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:PingNuitrack () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:89)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:.cctor () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs Line: 89)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.571 seconds
+Domain Reload Profiling:
+	ReloadAssembly (572ms)
+		BeginReloadAssembly (73ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (455ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (140ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (178ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (111ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (1ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1470 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.5 MB.
+System memory in use after: 97.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2081.
+Total: 2.041900 ms (FindLiveObjects: 0.103400 ms CreateObjectMapping: 0.037800 ms MarkObjects: 1.881200 ms  DeleteObjects: 0.018300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002000 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+<color=green><b>Test Nuitrack (ver.3706) init was successful! (type: Runtime)</b></color>
+Current Scripting Backend Mono2x  Target:Standalone
+Device  [Sensor Name: Intel RealSense L515, License: TRIAL]
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:PingNuitrack () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:89)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:.cctor () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs Line: 89)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.603 seconds
+Domain Reload Profiling:
+	ReloadAssembly (604ms)
+		BeginReloadAssembly (75ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (487ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (124ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (227ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (161ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (1ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1470 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.5 MB.
+System memory in use after: 97.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2084.
+Total: 1.793900 ms (FindLiveObjects: 0.099200 ms CreateObjectMapping: 0.024400 ms MarkObjects: 1.646600 ms  DeleteObjects: 0.023000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
