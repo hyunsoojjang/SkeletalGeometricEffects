@@ -15,21 +15,21 @@ namespace GeoFx
 
         [SerializeField] Animator _sourceAnimator = null;
 
-        [SerializeField, Range(0, 0.5f)] float _baseRadius = 0.25f;
-        [SerializeField, Range(0, 0.025f)] float _stripWidth = 0.015f;
-        [SerializeField, Range(0, 10)] float _stripSpeed = 4;
-        [SerializeField, Range(0, 5)] float _stripLength = 2;
+        [SerializeField, Range(0, 0.5f)]public float _baseRadius = 0.25f;
+        [SerializeField, Range(0, 0.025f)] public float _stripWidth = 0.015f;
+        [SerializeField, Range(0, 10)] public float _stripSpeed = 4;
+        [SerializeField, Range(0, 5)] public float _stripLength = 2;
 
-        [SerializeField, Range(0, 10)] float _waveWidth = 2;
-        [SerializeField, Range(0, 10)] float _waveSpeed = 2;
-        [SerializeField, Range(0, 1)] float _distortion = 0.1f;
+        [SerializeField, Range(0, 10)] public float _waveWidth = 2;
+        [SerializeField, Range(0, 10)] public float _waveSpeed = 2;
+        [SerializeField, Range(0, 1)] public float _distortion = 0.1f;
 
         [SerializeField, ColorUsage(false)] Color _baseColor = Color.white;
-        [SerializeField, Range(0, 1)] float _hueShift = 0.1f;
-        [SerializeField, Range(0, 1)] float _metallic = 0;
-        [SerializeField, Range(0, 1)] float _smoothness = 0.5f;
+        [SerializeField, Range(0, 1)] public float _hueShift = 0.1f;
+        [SerializeField, Range(0, 1)] public float _metallic = 0;
+        [SerializeField, Range(0, 1)] public float _smoothness = 0.5f;
         [SerializeField, ColorUsage(false, true)] Color _emissiveColor = Color.white;
-        [SerializeField, Range(0, 1)] float _hilight = 0.1f;
+        [SerializeField, Range(0, 1)] public float _hilight = 0.1f;
 
         [SerializeField] bool _debug = false;
 

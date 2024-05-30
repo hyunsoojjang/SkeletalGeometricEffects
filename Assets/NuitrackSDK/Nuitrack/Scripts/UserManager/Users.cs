@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 
 using nuitrack;
-
+using UnityEngine;
 
 namespace NuitrackSDK
 {
+
     public class Users : IEnumerable<UserData>
     {
         public delegate void UserHandler(UserData user);
@@ -14,6 +16,8 @@ namespace NuitrackSDK
         public event UserHandler OnUserEnter;
         public event UserHandler OnUserExit;
 
+
+        
         /// <summary>
         /// Minimum allowed ID
         /// </summary>
@@ -90,6 +94,7 @@ namespace NuitrackSDK
         /// <returns>User data, if the user exists otherwise null.</returns>
         public UserData GetUser(int userID)
         {
+
             if (users.ContainsKey(userID))
                 return users[userID];
             else

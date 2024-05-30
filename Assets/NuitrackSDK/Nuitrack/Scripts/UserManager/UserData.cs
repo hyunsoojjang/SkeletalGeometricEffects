@@ -468,6 +468,7 @@ namespace NuitrackSDK
 
         internal void Reset()
         {
+            
             Skeleton = null;
             RawUserHands = null;
             RawGesture = null;

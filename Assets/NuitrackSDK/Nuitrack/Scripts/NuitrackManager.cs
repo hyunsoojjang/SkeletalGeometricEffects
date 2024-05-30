@@ -434,7 +434,8 @@ public class NuitrackManager : MonoBehaviour
 
             Nuitrack.Run();
             Debug.Log("Nuitrack Run OK");
-
+            Users.OnUserEnter += Users_OnUserEnter;
+            Users.OnUserExit += Users_OnUserExit;
             ChangeModulesState(skeletonTrackerModuleOn, handsTrackerModuleOn, depthModuleOn, colorModuleOn, gesturesRecognizerModuleOn, userTrackerModuleOn);
 
             NuitrackInitialized = true;
@@ -451,6 +452,21 @@ public class NuitrackManager : MonoBehaviour
 
         if (!asyncInit)
             PlayerPrefs.SetInt("failStart", 0);
+    }
+
+    private void Users_OnUserExit(UserData user)
+    {
+       
+
+
+        Debug.Log($"user {user.ID} is  Exit" );
+
+    }
+
+    private void Users_OnUserEnter(UserData user)
+    {
+        Debug.Log($"user {user.ID} is  Enter");
+
     }
 
     public void ChangeModulesState(bool skeleton, bool hand, bool depth, bool color, bool gestures, bool user)
@@ -698,6 +714,8 @@ public class NuitrackManager : MonoBehaviour
 
     void OnDestroy()
     {
+        Users.OnUserExit -= Users_OnUserExit;
+        Users.OnUserEnter -= Users_OnUserEnter ;
         StopNuitrack();
     }
 

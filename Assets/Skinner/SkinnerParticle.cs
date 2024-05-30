@@ -125,7 +125,7 @@ namespace Skinner
 
         [SerializeField]
         [Tooltip("Changes the scale of a particle based on its initial speed.")]
-        float _speedToScale = 0.5f;
+        public float _speedToScale = 0.5f;
 
         /// The maximum scale of particles.
         public float maxScale {
@@ -174,6 +174,18 @@ namespace Skinner
         #endregion
 
         #region Other settings
+        /// Determines if particles should be emitted continuously.
+        public bool continuousEmission
+        {
+            get { return _continuousEmission; }
+            set { _continuousEmission = value; }
+        }
+
+        [SerializeField]
+        [Tooltip("입자가 지속적으로 방출될지 여부를 결정합니다.")]
+        private bool _continuousEmission = false;
+
+
 
         /// Determines the random number sequence used for the effect.
         public int randomSeed {
@@ -341,8 +353,9 @@ namespace Skinner
 
         void LateUpdate()
         {
-            // Do nothing if the source is not ready.
-            if (_source == null || !_source.isReady) return;
+
+            // Do nothing if the source is not ready and continuous emission is off.
+            if (_source == null || (!_source.isReady && !_continuousEmission)) return;
 
             // Reset the animation kernels on reconfiguration.
             if (_reconfigured)

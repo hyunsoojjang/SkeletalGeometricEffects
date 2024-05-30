@@ -29,6 +29,8 @@ namespace Skinner
 
         SerializedProperty _randomSeed;
 
+        SerializedProperty _continuousEmission; // 추가
+
         static GUIContent _labelSpeedToLife = new GUIContent("Life by Speed");
         static GUIContent _labelSpeedToSpin = new GUIContent("Spin by Speed");
         static GUIContent _labelSpeedToScale = new GUIContent("Scale by Speed");
@@ -56,6 +58,8 @@ namespace Skinner
             _noiseMotion = serializedObject.FindProperty("_noiseMotion");
 
             _randomSeed = serializedObject.FindProperty("_randomSeed");
+
+            _continuousEmission = serializedObject.FindProperty("_continuousEmission");//추가
         }
 
         public override void OnInspectorGUI()
@@ -101,6 +105,8 @@ namespace Skinner
             EditorGUI.BeginChangeCheck();
             EditorGUILayout.PropertyField(_randomSeed);
             reconfigured |= EditorGUI.EndChangeCheck();
+
+            EditorGUILayout.PropertyField(_continuousEmission);
 
             if (reconfigured)
                 foreach (SkinnerParticle sp in targets) sp.UpdateConfiguration();

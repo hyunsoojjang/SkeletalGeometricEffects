@@ -231,6 +231,7 @@ public class SensorData
 
     public void Update()
     {
+        //Debug.Log($"UserCount : {Users.Count}" );
         Users.UpdateData(skeletonData, handTrackerData, gestureData, NuitrackJson);
 
         if (gestureData != null)

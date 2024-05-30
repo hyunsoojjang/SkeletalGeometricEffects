@@ -191,6 +191,7 @@
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\NuitrackManager.cs" />
     <Compile Include="Assets\NuitrackSDK\Pointer\Scripts\PointerVisuals.cs" />
     <Compile Include="Assets\NuitrackSDK\NuitrackCalibrationRGB\Scripts\SensorDisconnectChecker.cs" />
+    <Compile Include="Assets\Scirpts\Dance_AvatarContorller.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
