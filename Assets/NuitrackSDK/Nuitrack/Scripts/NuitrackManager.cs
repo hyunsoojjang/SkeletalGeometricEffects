@@ -26,6 +26,7 @@ public class InitEvent : UnityEvent<NuitrackInitState> {}
 [HelpURL("https://github.com/3DiVi/nuitrack-sdk/blob/master/doc/")]
 public class NuitrackManager : MonoBehaviour
 {
+    Wave_DebugUI wave_DebugUI;
     public enum WifiConnect
     {
         none, VicoVR, TVico,
@@ -231,6 +232,12 @@ public class NuitrackManager : MonoBehaviour
 
     void Awake()
     {
+
+
+        wave_DebugUI = GameObject.FindObjectOfType<Wave_DebugUI>();
+        wave_DebugUI.debugText.text = null;
+        wave_DebugUI.errorText.text = null;
+
         if (Instance.gameObject != gameObject)
         {
             DestroyImmediate(Instance.gameObject);
@@ -431,6 +438,7 @@ public class NuitrackManager : MonoBehaviour
             Nuitrack.UpdateConfig();
 
             Debug.Log("Nuitrack Init OK");
+            wave_DebugUI.debugText.text = "Nuitrack Init OK";
 
             Nuitrack.Run();
             Debug.Log("Nuitrack Run OK");
@@ -677,6 +685,7 @@ public class NuitrackManager : MonoBehaviour
         }
         catch (System.Exception ex)
         {
+            Wave_DebugUI.instance.errorText.text = ex.ToString();
             NuitrackErrorSolver.CheckError(ex, true, false);
             nuitrackError = true;
         }

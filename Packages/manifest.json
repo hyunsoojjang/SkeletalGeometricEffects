@@ -13,6 +13,7 @@
     "jp.keijiro.cmu-mocap": "https://github.com/keijiro/CMUMocap.git#upm",
     "jp.keijiro.kino.post-processing": "https://github.com/keijiro/Kino.git#upm",
     "jp.keijiro.klak": "https://github.com/keijiro/Klak.git#upm",
+    "jp.keijiro.klak.spout": "2.0.3",
     "jp.keijiro.neolowman": "https://github.com/keijiro/NeoLowMan.git#upm",
     "jp.keijiro.test-assets": "https://github.com/keijiro/jp.keijiro.test-assets.git",
     "com.unity.modules.androidjni": "1.0.0",

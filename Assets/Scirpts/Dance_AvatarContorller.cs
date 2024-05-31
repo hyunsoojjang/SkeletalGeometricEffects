@@ -1,5 +1,6 @@
 using GeoFx;
 using NuitrackSDK;
+using NuitrackSDK.Avatar;
 using Skinner;
 using System;
 using System.Collections;
@@ -8,6 +9,8 @@ using UnityEngine;
 
 public class Dance_AvatarContorller : MonoBehaviour
 {
+    public static Dance_AvatarContorller instance;
+
     public Transform hip;
     Vector3 initHippos;
     public Skeleton slekVfx;
@@ -16,6 +19,12 @@ public class Dance_AvatarContorller : MonoBehaviour
     public SkinnerParticle skinnerParticle2;
     public SkinnerTrail skinnerTrail;
 
+
+    public NuitrackAvatar nuitrackAvatar;
+    public Transform sensorSpace;
+    public Transform avatarHip;
+    public float avatarRecogRange;
+    public bool canAvatarSensing;
 
     public enum State
     {
@@ -31,12 +40,20 @@ public class Dance_AvatarContorller : MonoBehaviour
     }
     public SkinnerState skinnerState;
 
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+    }
     void Start()
     {
         initHippos = hip.position;
 
-        NuitrackManager.Users.OnUserEnter += Users_OnUserEnter;
-        NuitrackManager.Users.OnUserExit += Users_OnUserExit; ;
+        //NuitrackManager.Users.OnUserEnter += Users_OnUserEnter;
+        //NuitrackManager.Users.OnUserExit += Users_OnUserExit; ;
     }
     private void Users_OnUserEnter(UserData user)
     {
@@ -185,6 +202,11 @@ public class Dance_AvatarContorller : MonoBehaviour
 
     private void Update()
     {
+
+        LimitSenseingArea();
+
+        AreaEffect(canAvatarSensing);
+
         curT += Time.deltaTime;
         if (curT >= stateChageTime)
         {
@@ -212,6 +234,65 @@ public class Dance_AvatarContorller : MonoBehaviour
                 skinnerLapseTime = 0;
             }
         }
+    }
+
+    void LimitSenseingArea()
+    {
+        //Debug.Log($"nuitrack sensorsdata count : {NuitrackManager.sensorsData.Count}\n NuitrackManager.Users.Count : {NuitrackManager.Users.Count}\n NuitrackManager.Users.Current : {NuitrackManager.Users.Current}\n");
+
+        if (nuitrackAvatar.ControllerUser != null&& nuitrackAvatar.ControllerUser.Skeleton != null)
+        {
+
+            if (hip.position.x <= sensorSpace.position.x + avatarRecogRange
+            && hip.position.x >= sensorSpace.position.x - avatarRecogRange)
+            {
+                canAvatarSensing = true;
+            }
+            else 
+            {
+                canAvatarSensing = false;
+
+            }
+        }
+            if (NuitrackManager.Users.Count<=0) canAvatarSensing = false;
+    }
+
+    void AreaEffect(bool isArea)
+    {
+    
+            if (isArea)
+            {
+
+                switch (state)
+                {
+                    case State.Skeleton:
+                        SkeletionVisibleLerp();
+                        SkinnerInVisibleLerp();
+                        break;
+                    case State.Skinner:
+                        SkeletionInVisibleLerp();
+                        SkinnerVisibleLerp();
+                        break;
+
+                }
+            }
+            else
+            {
+                switch (state)
+                {
+                    case State.Skeleton:
+                        SkeletionInVisibleLerp();
+                        SkinnerInVisibleLerp();
+                        break;
+                    case State.Skinner:
+                        SkeletionInVisibleLerp();
+                        SkinnerInVisibleLerp();
+                        break;
+                    default:
+                        break;
+                }
+            }
+        
     }
 
     // Update is called once per frame

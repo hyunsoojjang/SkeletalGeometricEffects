@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3343454616166184879
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3343454616166184878}
+  - component: {fileID: 3343454616166184877}
+  m_Layer: 0
+  m_Name: URG1PosSetter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3343454616166184878
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3343454616166184879}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 200.4598, y: 193.20004, z: 115.225876}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3343454616166184877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3343454616166184879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bbfcbc6f02b8e64d8572af531a1f621, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  URGPosUI: {fileID: 0}
+  orthoCam: {fileID: 0}
+  perspectiveCamera: {fileID: 0}
+  urgNumber: 0
+  camState: 1
+  lidarState: 0
+  crossState: 0
+  sensingCubePool: []
+  sensingCube: {fileID: 820434305033921177, guid: 28010ef4a3af1aa41b36ffc36303fbdd, type: 3}
+  sensingCubeCount: 10
+  ActiveSensingCube: 1
+  NormalizedVecter: 0
+  offsetX: 0
+  offsetY: 0
+  offsetZ: 0
+  PresetX: 0
+  PresetZ: 0
+  realScaleRate: 1
+  ScreenWidth: 1920
+  ScreenHeight: 1080
+  OrthoCamSize: 0
+  CenterToSideSize: 0
+  isLivingScene: 0
+  center: {x: 0, y: 0, z: 0}

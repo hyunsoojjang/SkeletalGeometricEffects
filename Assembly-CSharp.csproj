@@ -57,10 +57,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\PostProcessing\Runtime\Components\FxaaComponent.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Test\Rotate.cs" />
+    <Compile Include="Assets\Scripts\Protocol.cs" />
+    <Compile Include="Assets\URG\UrgDevice.cs" />
     <Compile Include="Assets\NuitrackSDK\PoseDetector\Sample\Scripts\PoseItem.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\Motion Capture\FinalAssets\Scripts\GenericRecorder.cs" />
     <Compile Include="Assets\Klak\Math\Perlin.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\HandTracker\Scripts\ImageItem.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\ReporterGUI.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\Avatar Animation\Scripts\RiggedAvatar.cs" />
     <Compile Include="Assets\NuitrackSDK\NuitrackDemos\All Modules\Scripts\TouchCameraControls.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\SegmentExample\Scripts\ObjectSpawner.cs" />
@@ -82,7 +86,9 @@
     <Compile Include="Assets\NuitrackSDK\Faces\FaceView\Scripts\UIFacesManager.cs" />
     <Compile Include="Assets\NuitrackSDK\PoseDetector\Scripts\PoseDetector.cs" />
     <Compile Include="Assets\NuitrackSDK\Faces\PointsFace\UIPointsFace.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\MultiKeyDictionary.cs" />
     <Compile Include="Assets\NuitrackSDK\Frame\Scripts\FrameMixer.cs" />
+    <Compile Include="Assets\URG\SCIP_library.cs" />
     <Compile Include="Assets\NuitrackSDK\Pointer\Scripts\PointerPassing.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\AR Nuitrack\ShaderGraphSample\Scripts\ShaderGraphRender.cs" />
     <Compile Include="Assets\Skinner\SkinnerTrailTemplate.cs" />
@@ -90,7 +96,10 @@
     <Compile Include="Assets\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\ErrorDisplay.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Reporter.cs" />
+    <Compile Include="Assets\UrgVisualize\Scripts\UrgVisualize.cs" />
     <Compile Include="Assets\NuitrackSDK\Frame\Croppers\Scripts\Cropper.cs" />
+    <Compile Include="Assets\Scripts\FullscreenGameView.cs" />
     <Compile Include="Assets\NuitrackSDK\Frame\Scripts\ToTextureModules\SegmentToTexture.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\VignetteComponent.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
@@ -101,10 +110,12 @@
     <Compile Include="Assets\Skinner\Internal\CullingStateController.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
     <Compile Include="Assets\Skinner\SkinnerParticle.cs" />
+    <Compile Include="Assets\Scripts\LidarAction.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\FaceTracker\FinalAssets\Scripts\FaceController.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\ErrorSolver\NuitrackErrorSolver.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\AR Nuitrack\Extensions\Scripts\RigidbodySkeletonManager.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\VignetteModel.cs" />
+    <Compile Include="Assets\Scripts\Wave_DebugUI.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\First Project\NativeAvatar.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\GrainModel.cs" />
     <Compile Include="Assets\Skinner\SkinnerSource.cs" />
@@ -115,6 +126,7 @@
     <Compile Include="Assets\NuitrackSDK\Tutorials\SegmentExample\Scripts\SegmentPaint.cs" />
     <Compile Include="Assets\NuitrackSDK\NuitrackDemos\All Modules\Scripts\ModulesUI.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\Box (VR Mobile)\Scripts\PunchSpeedSender.cs" />
+    <Compile Include="Assets\Scripts\Wave_GameManager.cs" />
     <Compile Include="Assets\NuitrackSDK\NuitrackDemos\All Modules\Scripts\ExceptionsLogger.cs" />
     <Compile Include="Assets\NuitrackSDK\SensorEnvironment\SensorSpace\SensorSpace.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\HandTracker\Scripts\Pointer.cs" />
@@ -127,7 +139,9 @@
     <Compile Include="Assets\PostProcessing\Runtime\Components\GrainComponent.cs" />
     <Compile Include="Assets\NuitrackSDK\Avatar\3D Avatar\Scripts\ModelJoint.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\Virtual Fitting Room\Advanced Sample\Scripts\FittingCloth.cs" />
+    <Compile Include="Assets\Scripts\Settings.cs" />
     <Compile Include="Assets\NuitrackSDK\NuitrackDemos\All Modules\Scripts\NuitrackModules.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\ReporterMessageReceiver.cs" />
     <Compile Include="Assets\NuitrackSDK\NuitrackDemos\All Modules\Scripts\CameraFullscreen.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\PostProcessingContext.cs" />
     <Compile Include="Assets\NuitrackSDK\Frame\Blur\Scripts\Blur.cs" />
@@ -139,6 +153,7 @@
     <Compile Include="Assets\PostProcessing\Runtime\Models\UserLutModel.cs" />
     <Compile Include="Assets\Skinner\SkinnerModel.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\Zombie Nightmare (VR)\Final Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\MainThreadDispatcher.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\BloomComponent.cs" />
     <Compile Include="Assets\Skinner\SkinnerGlitch.cs" />
     <Compile Include="Assets\Skinner\SkinnerParticleTemplate.cs" />
@@ -146,6 +161,7 @@
     <Compile Include="Assets\NuitrackSDK\NuitrackDemos\All Modules\Scripts\ModuleVisualisations\GesturesVisualization.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\AR Nuitrack\Final Assets\Scripts\MeshGenerator.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
+    <Compile Include="Assets\Scripts\URGPosSetter.cs" />
     <Compile Include="Assets\Skinner\SkinnerTrail.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\HandPressure.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\CalibrationRotationScripts\CameraRecenter.cs" />
@@ -157,13 +173,16 @@
     <Compile Include="Assets\NuitrackSDK\NuitrackCalibrationRGB\Scripts\RGBCalibrationVisualizer.cs" />
     <Compile Include="Assets\NuitrackSDK\NuitrackDemos\All Modules\Scripts\ModuleVisualisations\UserTrackerVisualization.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\NuitrackConfigHandler.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Test\TestReporter.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\NuitrackAI\Final Assets\ObjectDetector.cs" />
     <Compile Include="Assets\NuitrackSDK\Frame\Scripts\FrameProvider.cs" />
     <Compile Include="Assets\NuitrackSDK\Faces\FaceView\Scripts\UIFaceInfo.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\UserLutComponent.cs" />
+    <Compile Include="Assets\UrgVisualize\Scripts\UrgControl.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\FaceTracker\FinalAssets\Scripts\FaceManager.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\Zombie Nightmare (VR)\Final Assets\Scripts\NuitrackLegs.cs" />
     <Compile Include="Assets\NuitrackSDK\SafetyGrid\Scripts\SafetyGrid.cs" />
+    <Compile Include="Assets\Scripts\SendRequester.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\Animated Emoji\Final Assets\Scripts\FaceAnimController.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\FaceTracker\FinalAssets\Scripts\FaceSwitcher.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\HandTracker\Scripts\GalleryControl.cs" />
@@ -173,14 +192,18 @@
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\NuitrackAttributes.cs" />
     <Compile Include="Assets\NuitrackSDK\NuitrackDemos\All Modules\Scripts\ModuleVisualisations\SkeletonVisualization.cs" />
     <Compile Include="Assets\NuitrackSDK\PoseDetector\Sample\Scripts\PoseViewer.cs" />
+    <Compile Include="Assets\Scripts\Wave_VideoManager.cs" />
     <Compile Include="Assets\NuitrackSDK\Avatar\3D Avatar\Scripts\SkeletonAvatar.cs" />
+    <Compile Include="Assets\Scripts\TRACE.cs" />
     <Compile Include="Assets\NuitrackSDK\Frame\Scripts\ToTextureModules\RGBToTexture.cs" />
     <Compile Include="Assets\NuitrackSDK\Avatar\UI Avatar\Scripts\SkeletonsUI.cs" />
+    <Compile Include="Assets\Scripts\URGPosUI.cs" />
     <Compile Include="Assets\NuitrackSDK\NuitrackDemos\All Modules\Scripts\EmergencyExit.cs" />
     <Compile Include="Assets\NuitrackSDK\NuitrackDemos\All Modules\FPSCounter\FPSCounter.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\SegmentExample\Scripts\FallingObject.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
     <Compile Include="Assets\NuitrackSDK\Frame\Scripts\TextureUtils.cs" />
+    <Compile Include="Assets\URG\ShowUrg.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\DitheringComponent.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
@@ -189,6 +212,9 @@
     <Compile Include="Assets\PostProcessing\Runtime\PostProcessingComponent.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\Motion Capture\FinalAssets\Scripts\AnimatorAvatar.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\NuitrackManager.cs" />
+    <Compile Include="Assets\Scripts\FadeEvent.cs" />
+    <Compile Include="Assets\Scripts\InputFieldValueUpdater.cs" />
+    <Compile Include="Assets\URG\UrgDeviceEthernet.cs" />
     <Compile Include="Assets\NuitrackSDK\Pointer\Scripts\PointerVisuals.cs" />
     <Compile Include="Assets\NuitrackSDK\NuitrackCalibrationRGB\Scripts\SensorDisconnectChecker.cs" />
     <Compile Include="Assets\Scirpts\Dance_AvatarContorller.cs" />
@@ -218,13 +244,16 @@
     <Compile Include="Assets\NuitrackSDK\Frame\Scripts\ToTextureModules\FrameToTexture.cs" />
     <Compile Include="Assets\NuitrackSDK\NuitrackDemos\All Modules\Scripts\ModuleVisualisations\UserTrackerVisMesh.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
+    <Compile Include="Assets\Scripts\Game_SoundManager.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\AR Nuitrack\Final Assets\Scripts\ARNuitrack.cs" />
+    <Compile Include="Assets\Scripts\SliderValueUpdater.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\UserManager\Users.cs" />
     <Compile Include="Assets\NuitrackSDK\Frame\Scripts\UI\NuitrackAspectRatioFitter.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\NuitrackLoader.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\HandTracker\Scripts\HandsInputModule.cs" />
+    <Compile Include="Assets\UrgVisualize\Scripts\UrgSensing.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\LicenseInfo.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\Point Cloud\PointCloud.cs" />
     <Compile Include="Assets\NuitrackSDK\Frame\Scripts\DrawSensorFrame.cs" />
@@ -299,6 +328,7 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\ACES.cginc" />
     <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
     <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
+    <None Include="Assets\UrgVisualize\Shaders\VisualizeSensedObj.shader" />
     <None Include="Assets\NuitrackSDK\Avatar\3D Avatar\Models\UnityChan\license.txt" />
     <None Include="Assets\PostProcessing\Resources\Shaders\FXAA.shader" />
     <None Include="Assets\NuitrackSDK\Tutorials\AR Nuitrack\ShaderGraphSample\README.txt" />
@@ -401,6 +431,9 @@
     <Reference Include="UnityEngine.IMGUIModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.41f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.41f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.InputModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.41f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
     </Reference>
@@ -427,6 +460,9 @@
     </Reference>
     <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.41f1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.41f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SharedInternalsModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.41f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
@@ -914,6 +950,9 @@
     <Reference Include="Klak.Motion.Editor">
       <HintPath>Library\ScriptAssemblies\Klak.Motion.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Klak.Spout.Runtime">
+      <HintPath>Library\ScriptAssemblies\Klak.Spout.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
@@ -923,11 +962,11 @@
     <Reference Include="Unity.Postprocessing.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Klak.Spout.Editor">
+      <HintPath>Library\ScriptAssemblies\Klak.Spout.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Klak.Wiring">
-      <HintPath>Library\ScriptAssemblies\Klak.Wiring.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
       <HintPath>Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
@@ -943,6 +982,9 @@
     </Reference>
     <Reference Include="Klak.Math.Editor">
       <HintPath>Library\ScriptAssemblies\Klak.Math.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Klak.Wiring">
+      <HintPath>Library\ScriptAssemblies\Klak.Wiring.dll</HintPath>
     </Reference>
     <Reference Include="Klak.Extensions">
       <HintPath>Library\ScriptAssemblies\Klak.Extensions.dll</HintPath>

@@ -214,7 +214,10 @@ namespace NuitrackSDK.Avatar
         void Update()
         {
             if(ControllerUser != null && ControllerUser.Skeleton != null)
+            {
+               
                 Process(ControllerUser);
+            }
 
             if (vrMode)
                 spawnedHead.position = headTransform.position;

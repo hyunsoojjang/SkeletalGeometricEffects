@@ -70,6 +70,7 @@
     <Compile Include="Assets\PostProcessing\Editor\Models\VignetteModelEditor.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\Editor\Wizards\Wizard.cs" />
     <Compile Include="Assets\Skinner\Editor\SkinnerGlitchTemplateEditor.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Editor\ReporterEditor.cs" />
     <Compile Include="Assets\Skinner\Editor\SkinnerSourceEditor.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\Editor\GUI\NuitrackManagerEditor.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Models\MotionBlurModelEditor.cs" />
@@ -776,6 +777,9 @@
     <Reference Include="Klak.Motion.Editor">
       <HintPath>Library\ScriptAssemblies\Klak.Motion.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Klak.Spout.Runtime">
+      <HintPath>Library\ScriptAssemblies\Klak.Spout.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
@@ -785,11 +789,11 @@
     <Reference Include="Unity.Postprocessing.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Klak.Spout.Editor">
+      <HintPath>Library\ScriptAssemblies\Klak.Spout.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Klak.Wiring">
-      <HintPath>Library\ScriptAssemblies\Klak.Wiring.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
       <HintPath>Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
@@ -805,6 +809,9 @@
     </Reference>
     <Reference Include="Klak.Math.Editor">
       <HintPath>Library\ScriptAssemblies\Klak.Math.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Klak.Wiring">
+      <HintPath>Library\ScriptAssemblies\Klak.Wiring.dll</HintPath>
     </Reference>
     <Reference Include="Klak.Extensions">
       <HintPath>Library\ScriptAssemblies\Klak.Extensions.dll</HintPath>
