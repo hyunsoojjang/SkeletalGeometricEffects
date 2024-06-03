@@ -3,44 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\nuitracksdk\\avatar\\3d avatar\\scripts\\nuitrackavatar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\nuitracksdk\\avatar\\3d avatar\\scripts\\nuitrackavatar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\nuitracksdk\\avatar\\scripts\\baseavatar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\nuitracksdk\\avatar\\scripts\\baseavatar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\scirpts\\dance_avatarcontorller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scirpts\\dance_avatarcontorller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\nuitracksdk\\nuitrack\\scripts\\usermanager\\trackeduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\nuitracksdk\\nuitrack\\scripts\\usermanager\\trackeduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\scripts\\wave_videomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wave_videomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\scripts\\game_soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game_soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\scripts\\wave_gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wave_gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\nuitracksdk\\nuitrack\\scripts\\nuitrackmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\nuitracksdk\\nuitrack\\scripts\\nuitrackmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|c:\\users\\daniel\\skeletalgeometriceffects\\assets\\scripts\\wave_debugui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wave_debugui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\nuitracksdk\\nuitrack\\scripts\\sensordata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\nuitracksdk\\nuitrack\\scripts\\sensordata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|c:\\users\\daniel\\skeletalgeometriceffects\\assets\\nuitracksdk\\tutorials\\handtracker\\scripts\\gallerycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\nuitracksdk\\tutorials\\handtracker\\scripts\\gallerycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\scripts\\urgpossetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,12 +15,80 @@
       "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lidaraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\urgvisualize\\scripts\\urgsensing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\urgvisualize\\scripts\\urgsensing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\scripts\\wave_gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wave_gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\scripts\\wave_videomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wave_videomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\scirpts\\dance_avatarcontorller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scirpts\\dance_avatarcontorller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\nuitracksdk\\nuitrack\\scripts\\usermanager\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\nuitracksdk\\nuitrack\\scripts\\usermanager\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\nuitracksdk\\nuitrack\\scripts\\nuitrackmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\nuitracksdk\\nuitrack\\scripts\\nuitrackmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\nuitracksdk\\nuitrack\\scripts\\usermanager\\trackeduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\nuitracksdk\\nuitrack\\scripts\\usermanager\\trackeduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\nuitracksdk\\nuitrack\\scripts\\nuitrackutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\nuitracksdk\\nuitrack\\scripts\\nuitrackutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\nuitracksdk\\frame\\scripts\\totexturemodules\\depthtotexture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\nuitracksdk\\frame\\scripts\\totexturemodules\\depthtotexture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\nuitracksdk\\frame\\scripts\\frameprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\nuitracksdk\\frame\\scripts\\frameprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|c:\\users\\daniel\\skeletalgeometriceffects\\assets\\scripts\\protocol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\protocol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\scripts\\sendrequester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sendrequester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\scripts\\game_soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game_soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\nuitracksdk\\nuitrack\\scripts\\errorsolver\\nuitrackerrorsolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\nuitracksdk\\nuitrack\\scripts\\errorsolver\\nuitrackerrorsolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\nuitracksdk\\avatar\\scripts\\baseavatar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\nuitracksdk\\avatar\\scripts\\baseavatar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|c:\\users\\daniel\\skeletalgeometriceffects\\assets\\scripts\\trace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|c:\\users\\daniel\\skeletalgeometriceffects\\assets\\nuitracksdk\\avatar\\3d avatar\\scripts\\nuitrackavatar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\nuitracksdk\\avatar\\3d avatar\\scripts\\nuitrackavatar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\scripts\\wave_debugui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wave_debugui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\nuitracksdk\\nuitrack\\scripts\\sensordata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\nuitracksdk\\nuitrack\\scripts\\sensordata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\urgvisualize\\scripts\\urgsensing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\urgvisualize\\scripts\\urgsensing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\postprocessing\\resources\\shaders\\aces.cginc||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -71,20 +103,12 @@
       "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\nuitracksdk\\nuitrackdemos\\all modules\\scripts\\fovvisualsetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\nuitracksdk\\frame\\scripts\\totexturemodules\\depthtotexture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\nuitracksdk\\frame\\scripts\\totexturemodules\\depthtotexture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\nuitracksdk\\sensorenvironment\\sensorspace\\sensorspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\nuitracksdk\\sensorenvironment\\sensorspace\\sensorspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89FEB589-207E-E02E-CA8D-E76E6FE151ED}|Assembly-CSharp-Editor.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\nuitracksdk\\nuitrack\\scripts\\editor\\errorsolver\\nuitrackchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89FEB589-207E-E02E-CA8D-E76E6FE151ED}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\nuitracksdk\\nuitrack\\scripts\\editor\\errorsolver\\nuitrackchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\scripts\\sendrequester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sendrequester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\scripts\\inputfieldvalueupdater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -147,24 +171,12 @@
       "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\klak\\math\\interpolator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\nuitracksdk\\nuitrack\\scripts\\nuitrackutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\nuitracksdk\\nuitrack\\scripts\\nuitrackutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\nuitracksdk\\nuitrack\\scripts\\usermanager\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\nuitracksdk\\nuitrack\\scripts\\usermanager\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\nuitracksdk\\nuitrack\\scripts\\usermanager\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\nuitracksdk\\nuitrack\\scripts\\usermanager\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\nuitracksdk\\posedetector\\scripts\\posedetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\nuitracksdk\\posedetector\\scripts\\posedetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\nuitracksdk\\frame\\scripts\\frameprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{125B6BFA-2F5A-147D-24E6-704B05CC07AA}|Assembly-CSharp.csproj|solutionrelative:assets\\nuitracksdk\\frame\\scripts\\frameprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89FEB589-207E-E02E-CA8D-E76E6FE151ED}|Assembly-CSharp-Editor.csproj|C:\\Users\\Daniel\\SkeletalGeometricEffects\\assets\\nuitracksdk\\frame\\scripts\\editor\\frameprovidereditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -230,118 +242,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Dance_AvatarContorller.cs",
-              "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Scirpts\\Dance_AvatarContorller.cs",
-              "RelativeDocumentMoniker": "Assets\\Scirpts\\Dance_AvatarContorller.cs",
-              "ToolTip": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Scirpts\\Dance_AvatarContorller.cs",
-              "RelativeToolTip": "Assets\\Scirpts\\Dance_AvatarContorller.cs",
-              "ViewState": "AQIAALcAAAAAAAAAAAAewM8AAAAcAAAA",
+              "DocumentIndex": 0,
+              "Title": "GalleryControl.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Tutorials\\HandTracker\\Scripts\\GalleryControl.cs",
+              "RelativeDocumentMoniker": "Assets\\NuitrackSDK\\Tutorials\\HandTracker\\Scripts\\GalleryControl.cs",
+              "ToolTip": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Tutorials\\HandTracker\\Scripts\\GalleryControl.cs",
+              "RelativeToolTip": "Assets\\NuitrackSDK\\Tutorials\\HandTracker\\Scripts\\GalleryControl.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAWwIEAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T04:13:35.82Z",
+              "WhenOpened": "2024-06-03T06:18:04.273Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Wave_VideoManager.cs",
-              "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Scripts\\Wave_VideoManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Wave_VideoManager.cs",
-              "ToolTip": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Scripts\\Wave_VideoManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Wave_VideoManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAowA0AAAATAAAA",
+              "DocumentIndex": 12,
+              "Title": "Protocol.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Scripts\\Protocol.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Protocol.cs",
+              "ToolTip": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Scripts\\Protocol.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Protocol.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T03:33:26.134Z",
+              "WhenOpened": "2024-06-03T02:09:18.16Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "FovVisualSetter.cs",
-              "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\NuitrackDemos\\All Modules\\Scripts\\FovVisualSetter.cs",
-              "RelativeDocumentMoniker": "Assets\\NuitrackSDK\\NuitrackDemos\\All Modules\\Scripts\\FovVisualSetter.cs",
-              "ToolTip": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\NuitrackDemos\\All Modules\\Scripts\\FovVisualSetter.cs",
-              "RelativeToolTip": "Assets\\NuitrackSDK\\NuitrackDemos\\All Modules\\Scripts\\FovVisualSetter.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAAABcAAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T04:45:27.306Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 10,
               "Title": "DepthToTexture.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Frame\\Scripts\\ToTextureModules\\DepthToTexture.cs",
               "RelativeDocumentMoniker": "Assets\\NuitrackSDK\\Frame\\Scripts\\ToTextureModules\\DepthToTexture.cs",
               "ToolTip": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Frame\\Scripts\\ToTextureModules\\DepthToTexture.cs",
               "RelativeToolTip": "Assets\\NuitrackSDK\\Frame\\Scripts\\ToTextureModules\\DepthToTexture.cs",
-              "ViewState": "AQIAAH8AAAAAAAAAAAAawJYAAAA/AAAA",
+              "ViewState": "AQIAAJoAAAAAAAAAAAAlwLEAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T04:45:23.967Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Wave_DebugUI.cs",
-              "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Scripts\\Wave_DebugUI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Wave_DebugUI.cs",
-              "ToolTip": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Scripts\\Wave_DebugUI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Wave_DebugUI.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T04:15:53.702Z",
+              "WhenOpened": "2024-05-30T04:45:23.967Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "Game_SoundManager.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Scripts\\Game_SoundManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Game_SoundManager.cs",
               "ToolTip": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Scripts\\Game_SoundManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Game_SoundManager.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAAwAQAAAAeAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAnwCwAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T02:21:41.094Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 13,
               "Title": "SendRequester.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Scripts\\SendRequester.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SendRequester.cs",
               "ToolTip": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Scripts\\SendRequester.cs",
               "RelativeToolTip": "Assets\\Scripts\\SendRequester.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvx8AAAAyAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T02:20:04.287Z"
+              "WhenOpened": "2024-05-30T02:20:04.287Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Wave_GameManager.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Scripts\\Wave_GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Wave_GameManager.cs",
               "ToolTip": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Scripts\\Wave_GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Wave_GameManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAcAAAA",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAUwDsAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T02:19:09.355Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "TrackedUser.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Nuitrack\\Scripts\\UserManager\\TrackedUser.cs",
               "RelativeDocumentMoniker": "Assets\\NuitrackSDK\\Nuitrack\\Scripts\\UserManager\\TrackedUser.cs",
               "ToolTip": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Nuitrack\\Scripts\\UserManager\\TrackedUser.cs",
               "RelativeToolTip": "Assets\\NuitrackSDK\\Nuitrack\\Scripts\\UserManager\\TrackedUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAlAAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAAAnwFEAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T02:12:14.612Z",
               "EditorCaption": ""
@@ -354,27 +343,131 @@
               "RelativeDocumentMoniker": "Assets\\NuitrackSDK\\Nuitrack\\Scripts\\NuitrackManager.cs",
               "ToolTip": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Nuitrack\\Scripts\\NuitrackManager.cs",
               "RelativeToolTip": "Assets\\NuitrackSDK\\Nuitrack\\Scripts\\NuitrackManager.cs",
-              "ViewState": "AQIAAKsCAAAAAAAAAADgv8ECAAAYAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAMwEcAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-21T07:12:48.768Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FrameProvider.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Frame\\Scripts\\FrameProvider.cs",
+              "RelativeDocumentMoniker": "Assets\\NuitrackSDK\\Frame\\Scripts\\FrameProvider.cs",
+              "ToolTip": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Frame\\Scripts\\FrameProvider.cs",
+              "RelativeToolTip": "Assets\\NuitrackSDK\\Frame\\Scripts\\FrameProvider.cs",
+              "ViewState": "AQIAAKwAAAAAAAAAAAApwMUAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T01:19:57.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NuitrackUtils.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Nuitrack\\Scripts\\NuitrackUtils.cs",
+              "RelativeDocumentMoniker": "Assets\\NuitrackSDK\\Nuitrack\\Scripts\\NuitrackUtils.cs",
+              "ToolTip": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Nuitrack\\Scripts\\NuitrackUtils.cs",
+              "RelativeToolTip": "Assets\\NuitrackSDK\\Nuitrack\\Scripts\\NuitrackUtils.cs",
+              "ViewState": "AQIAAIsAAAAAAAAAAAArwKUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T07:43:14.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserData.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Nuitrack\\Scripts\\UserManager\\UserData.cs",
+              "RelativeDocumentMoniker": "Assets\\NuitrackSDK\\Nuitrack\\Scripts\\UserManager\\UserData.cs",
+              "ToolTip": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Nuitrack\\Scripts\\UserManager\\UserData.cs",
+              "RelativeToolTip": "Assets\\NuitrackSDK\\Nuitrack\\Scripts\\UserManager\\UserData.cs",
+              "ViewState": "AQIAAIkBAAAAAAAAAIAzwKEBAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T07:43:43.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dance_AvatarContorller.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Scirpts\\Dance_AvatarContorller.cs",
+              "RelativeDocumentMoniker": "Assets\\Scirpts\\Dance_AvatarContorller.cs",
+              "ToolTip": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Scirpts\\Dance_AvatarContorller.cs",
+              "RelativeToolTip": "Assets\\Scirpts\\Dance_AvatarContorller.cs",
+              "ViewState": "AQIAAHgAAAAAAAAAAAD4v88AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T04:13:35.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Wave_VideoManager.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Scripts\\Wave_VideoManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Wave_VideoManager.cs",
+              "ToolTip": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Scripts\\Wave_VideoManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Wave_VideoManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T03:33:26.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LidarAction.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Scripts\\LidarAction.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LidarAction.cs",
+              "ToolTip": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Scripts\\LidarAction.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LidarAction.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAADEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T01:05:47.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "URGPosSetter.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Scripts\\URGPosSetter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\URGPosSetter.cs",
+              "ToolTip": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Scripts\\URGPosSetter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\URGPosSetter.cs",
+              "ViewState": "AQIAAHcBAAAAAAAAAAAlwAMCAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T05:08:44.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "BaseAvatar.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Avatar\\Scripts\\BaseAvatar.cs",
               "RelativeDocumentMoniker": "Assets\\NuitrackSDK\\Avatar\\Scripts\\BaseAvatar.cs",
               "ToolTip": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Avatar\\Scripts\\BaseAvatar.cs",
               "RelativeToolTip": "Assets\\NuitrackSDK\\Avatar\\Scripts\\BaseAvatar.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAeAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-21T08:58:09.841Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 17,
+              "Title": "TRACE.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Scripts\\TRACE.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TRACE.cs",
+              "ToolTip": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Scripts\\TRACE.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TRACE.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T00:40:13.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "NuitrackAvatar.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Avatar\\3D Avatar\\Scripts\\NuitrackAvatar.cs",
               "RelativeDocumentMoniker": "Assets\\NuitrackSDK\\Avatar\\3D Avatar\\Scripts\\NuitrackAvatar.cs",
@@ -387,7 +480,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 23,
               "Title": "PointCloud.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Tutorials\\Point Cloud\\PointCloud.cs",
               "RelativeDocumentMoniker": "Assets\\NuitrackSDK\\Tutorials\\Point Cloud\\PointCloud.cs",
@@ -399,7 +492,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
+              "Title": "Wave_DebugUI.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Scripts\\Wave_DebugUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Wave_DebugUI.cs",
+              "ToolTip": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Scripts\\Wave_DebugUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Wave_DebugUI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T04:15:53.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FovVisualSetter.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\NuitrackDemos\\All Modules\\Scripts\\FovVisualSetter.cs",
+              "RelativeDocumentMoniker": "Assets\\NuitrackSDK\\NuitrackDemos\\All Modules\\Scripts\\FovVisualSetter.cs",
+              "ToolTip": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\NuitrackDemos\\All Modules\\Scripts\\FovVisualSetter.cs",
+              "RelativeToolTip": "Assets\\NuitrackSDK\\NuitrackDemos\\All Modules\\Scripts\\FovVisualSetter.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAABcAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T04:45:27.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NuitrackErrorSolver.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Nuitrack\\Scripts\\ErrorSolver\\NuitrackErrorSolver.cs",
+              "RelativeDocumentMoniker": "Assets\\NuitrackSDK\\Nuitrack\\Scripts\\ErrorSolver\\NuitrackErrorSolver.cs",
+              "ToolTip": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Nuitrack\\Scripts\\ErrorSolver\\NuitrackErrorSolver.cs",
+              "RelativeToolTip": "Assets\\NuitrackSDK\\Nuitrack\\Scripts\\ErrorSolver\\NuitrackErrorSolver.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAArwH0AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T04:46:39.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "ACES.cginc",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\PostProcessing\\Resources\\Shaders\\ACES.cginc",
               "RelativeDocumentMoniker": "Assets\\PostProcessing\\Resources\\Shaders\\ACES.cginc",
@@ -411,7 +541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 20,
               "Title": "SensorData.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Nuitrack\\Scripts\\SensorData.cs",
               "RelativeDocumentMoniker": "Assets\\NuitrackSDK\\Nuitrack\\Scripts\\SensorData.cs",
@@ -423,19 +553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "NuitrackErrorSolver.cs",
-              "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Nuitrack\\Scripts\\ErrorSolver\\NuitrackErrorSolver.cs",
-              "RelativeDocumentMoniker": "Assets\\NuitrackSDK\\Nuitrack\\Scripts\\ErrorSolver\\NuitrackErrorSolver.cs",
-              "ToolTip": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Nuitrack\\Scripts\\ErrorSolver\\NuitrackErrorSolver.cs",
-              "RelativeToolTip": "Assets\\NuitrackSDK\\Nuitrack\\Scripts\\ErrorSolver\\NuitrackErrorSolver.cs",
-              "ViewState": "AQIAANcAAAAAAAAAAAAhwPYAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T04:46:39.018Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 21,
               "Title": "UrgSensing.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\UrgVisualize\\Scripts\\UrgSensing.cs",
               "RelativeDocumentMoniker": "Assets\\UrgVisualize\\Scripts\\UrgSensing.cs",
@@ -447,19 +565,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "URGPosSetter.cs",
-              "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Scripts\\URGPosSetter.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\URGPosSetter.cs",
-              "ToolTip": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Scripts\\URGPosSetter.cs",
-              "RelativeToolTip": "Assets\\Scripts\\URGPosSetter.cs",
-              "ViewState": "AQIAAOoBAAAAAAAAAADgvwMCAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T05:08:44.901Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "InputFieldValueUpdater.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Scripts\\InputFieldValueUpdater.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\InputFieldValueUpdater.cs",
@@ -471,19 +577,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LidarAction.cs",
-              "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Scripts\\LidarAction.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\LidarAction.cs",
-              "ToolTip": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Scripts\\LidarAction.cs",
-              "RelativeToolTip": "Assets\\Scripts\\LidarAction.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T01:05:47.14Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 32,
               "Title": "SkinnerDebug.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Skinner\\SkinnerDebug.cs",
               "RelativeDocumentMoniker": "Assets\\Skinner\\SkinnerDebug.cs",
@@ -495,7 +589,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 34,
               "Title": "SkinnerParticleEditor.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Skinner\\Editor\\SkinnerParticleEditor.cs",
               "RelativeDocumentMoniker": "Assets\\Skinner\\Editor\\SkinnerParticleEditor.cs",
@@ -507,7 +601,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "SkinnerTrail.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Skinner\\SkinnerTrail.cs",
               "RelativeDocumentMoniker": "Assets\\Skinner\\SkinnerTrail.cs",
@@ -519,7 +613,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 33,
               "Title": "SkinnerSource.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Skinner\\SkinnerSource.cs",
               "RelativeDocumentMoniker": "Assets\\Skinner\\SkinnerSource.cs",
@@ -531,7 +625,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 25,
               "Title": "SensorSpace.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\SensorEnvironment\\SensorSpace\\SensorSpace.cs",
               "RelativeDocumentMoniker": "Assets\\NuitrackSDK\\SensorEnvironment\\SensorSpace\\SensorSpace.cs",
@@ -543,7 +637,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 30,
               "Title": "SkinnerParticle.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Skinner\\SkinnerParticle.cs",
               "RelativeDocumentMoniker": "Assets\\Skinner\\SkinnerParticle.cs",
@@ -555,7 +649,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 31,
               "Title": "TrailKernels.shader",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Skinner\\Shader\\TrailKernels.shader",
               "RelativeDocumentMoniker": "Assets\\Skinner\\Shader\\TrailKernels.shader",
@@ -567,7 +661,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 26,
               "Title": "NuitrackChecker.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Nuitrack\\Scripts\\Editor\\ErrorSolver\\NuitrackChecker.cs",
               "RelativeDocumentMoniker": "Assets\\NuitrackSDK\\Nuitrack\\Scripts\\Editor\\ErrorSolver\\NuitrackChecker.cs",
@@ -579,7 +673,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 29,
               "Title": "AmbientOcclusion.cginc",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\PostProcessing\\Resources\\Shaders\\AmbientOcclusion.cginc",
               "RelativeDocumentMoniker": "Assets\\PostProcessing\\Resources\\Shaders\\AmbientOcclusion.cginc",
@@ -591,7 +685,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 37,
               "Title": "Skeleton.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\GeoFx\\Script\\Skeleton.cs",
               "RelativeDocumentMoniker": "Assets\\GeoFx\\Script\\Skeleton.cs",
@@ -603,19 +697,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "NuitrackUtils.cs",
-              "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Nuitrack\\Scripts\\NuitrackUtils.cs",
-              "RelativeDocumentMoniker": "Assets\\NuitrackSDK\\Nuitrack\\Scripts\\NuitrackUtils.cs",
-              "ToolTip": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Nuitrack\\Scripts\\NuitrackUtils.cs",
-              "RelativeToolTip": "Assets\\NuitrackSDK\\Nuitrack\\Scripts\\NuitrackUtils.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAwwBYAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T07:43:14.957Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 39,
               "Title": "AnimatorAvatar.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Tutorials\\Motion Capture\\FinalAssets\\Scripts\\AnimatorAvatar.cs",
               "RelativeDocumentMoniker": "Assets\\NuitrackSDK\\Tutorials\\Motion Capture\\FinalAssets\\Scripts\\AnimatorAvatar.cs",
@@ -627,7 +709,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 50,
               "Title": "Skeleton.hlsl",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\GeoFx\\Shader\\Skeleton.hlsl",
               "RelativeDocumentMoniker": "Assets\\GeoFx\\Shader\\Skeleton.hlsl",
@@ -639,7 +721,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 41,
               "Title": "Interpolator.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Klak\\Math\\Interpolator.cs",
               "RelativeDocumentMoniker": "Assets\\Klak\\Math\\Interpolator.cs",
@@ -651,7 +733,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 40,
               "Title": "NuitrackConfigHandler.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Nuitrack\\Scripts\\NuitrackConfigHandler.cs",
               "RelativeDocumentMoniker": "Assets\\NuitrackSDK\\Nuitrack\\Scripts\\NuitrackConfigHandler.cs",
@@ -663,7 +745,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 36,
               "Title": "VectorMathExtension.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Klak\\Extension\\VectorMathExtension.cs",
               "RelativeDocumentMoniker": "Assets\\Klak\\Extension\\VectorMathExtension.cs",
@@ -675,7 +757,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 35,
               "Title": "AdvancedRiggedAvatar.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Tutorials\\Avatar Animation\\Scripts\\AdvancedRiggedAvatar.cs",
               "RelativeDocumentMoniker": "Assets\\NuitrackSDK\\Tutorials\\Avatar Animation\\Scripts\\AdvancedRiggedAvatar.cs",
@@ -687,19 +769,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "UserData.cs",
-              "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Nuitrack\\Scripts\\UserManager\\UserData.cs",
-              "RelativeDocumentMoniker": "Assets\\NuitrackSDK\\Nuitrack\\Scripts\\UserManager\\UserData.cs",
-              "ToolTip": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Nuitrack\\Scripts\\UserManager\\UserData.cs",
-              "RelativeToolTip": "Assets\\NuitrackSDK\\Nuitrack\\Scripts\\UserManager\\UserData.cs",
-              "ViewState": "AQIAAIEBAAAAAAAAAAAWwKQBAABcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T07:43:43.488Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 49,
               "Title": "DrawSensorFrame.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Frame\\Scripts\\DrawSensorFrame.cs",
               "RelativeDocumentMoniker": "Assets\\NuitrackSDK\\Frame\\Scripts\\DrawSensorFrame.cs",
@@ -711,7 +781,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 48,
               "Title": "README.txt",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\README.txt",
               "RelativeDocumentMoniker": "Assets\\NuitrackSDK\\README.txt",
@@ -723,7 +793,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 46,
               "Title": "Readme.txt",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\NuitrackDemos\\Multisensor\\Readme.txt",
               "RelativeDocumentMoniker": "Assets\\NuitrackSDK\\NuitrackDemos\\Multisensor\\Readme.txt",
@@ -735,7 +805,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 38,
               "Title": "FittingCloth.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Tutorials\\Virtual Fitting Room\\Advanced Sample\\Scripts\\FittingCloth.cs",
               "RelativeDocumentMoniker": "Assets\\NuitrackSDK\\Tutorials\\Virtual Fitting Room\\Advanced Sample\\Scripts\\FittingCloth.cs",
@@ -747,7 +817,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 44,
               "Title": "FrameProviderEditor.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Frame\\Scripts\\Editor\\FrameProviderEditor.cs",
               "RelativeDocumentMoniker": "Assets\\NuitrackSDK\\Frame\\Scripts\\Editor\\FrameProviderEditor.cs",
@@ -759,7 +829,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 42,
               "Title": "Users.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Nuitrack\\Scripts\\UserManager\\Users.cs",
               "RelativeDocumentMoniker": "Assets\\NuitrackSDK\\Nuitrack\\Scripts\\UserManager\\Users.cs",
@@ -771,19 +841,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "FrameProvider.cs",
-              "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Frame\\Scripts\\FrameProvider.cs",
-              "RelativeDocumentMoniker": "Assets\\NuitrackSDK\\Frame\\Scripts\\FrameProvider.cs",
-              "ToolTip": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Frame\\Scripts\\FrameProvider.cs",
-              "RelativeToolTip": "Assets\\NuitrackSDK\\Frame\\Scripts\\FrameProvider.cs",
-              "ViewState": "AQIAAG4AAAAAAAAAAAAawI4AAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T01:19:57.169Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 43,
               "Title": "PoseDetector.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\PoseDetector\\Scripts\\PoseDetector.cs",
               "RelativeDocumentMoniker": "Assets\\NuitrackSDK\\PoseDetector\\Scripts\\PoseDetector.cs",
@@ -795,7 +853,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 47,
               "Title": "SegmentToTexture.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\NuitrackSDK\\Frame\\Scripts\\ToTextureModules\\SegmentToTexture.cs",
               "RelativeDocumentMoniker": "Assets\\NuitrackSDK\\Frame\\Scripts\\ToTextureModules\\SegmentToTexture.cs",
@@ -807,7 +865,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 57,
               "Title": "BrownianMotionEditor.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Klak\\Motion\\Editor\\BrownianMotionEditor.cs",
               "RelativeDocumentMoniker": "Assets\\Klak\\Motion\\Editor\\BrownianMotionEditor.cs",
@@ -819,7 +877,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 55,
               "Title": "SmoothFollow.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Klak\\Motion\\SmoothFollow.cs",
               "RelativeDocumentMoniker": "Assets\\Klak\\Motion\\SmoothFollow.cs",
@@ -831,7 +889,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 54,
               "Title": "Tween.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Klak\\Math\\Tween.cs",
               "RelativeDocumentMoniker": "Assets\\Klak\\Math\\Tween.cs",
@@ -843,7 +901,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 51,
               "Title": "Skeleton.shader",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\GeoFx\\Shader\\Skeleton.shader",
               "RelativeDocumentMoniker": "Assets\\GeoFx\\Shader\\Skeleton.shader",
@@ -855,7 +913,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 45,
               "Title": "Klak.Math.asmdef",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Library\\PackageCache\\jp.keijiro.klak@998c115201\\Math\\Runtime\\Klak.Math.asmdef",
               "RelativeDocumentMoniker": "Library\\PackageCache\\jp.keijiro.klak@998c115201\\Math\\Runtime\\Klak.Math.asmdef",
@@ -867,7 +925,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 53,
               "Title": "SmoothFollowEditor.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Klak\\Motion\\Editor\\SmoothFollowEditor.cs",
               "RelativeDocumentMoniker": "Assets\\Klak\\Motion\\Editor\\SmoothFollowEditor.cs",
@@ -879,7 +937,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 56,
               "Title": "InterpolatorConfigDrawer.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Assets\\Klak\\Math\\Editor\\InterpolatorConfigDrawer.cs",
               "RelativeDocumentMoniker": "Assets\\Klak\\Math\\Editor\\InterpolatorConfigDrawer.cs",
@@ -891,7 +949,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 52,
               "Title": "BrownianMotion.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\SkeletalGeometricEffects\\Library\\PackageCache\\jp.keijiro.klak.timeline.procedural-motion@bcdcf10495\\Runtime\\BrownianMotion.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\jp.keijiro.klak.timeline.procedural-motion@bcdcf10495\\Runtime\\BrownianMotion.cs",

@@ -57,19 +57,4 @@ public class Wave_VideoManager : MonoBehaviour
             //StartCoroutine(nameof(ShowShoolCenter));
         }
     }
-
-    IEnumerator ShowShoolCenter()
-    {
-        while (true)
-        {
-
-
-        yield return null;
-        }
-    }
-    IEnumerator HideShoolCenter()
-    {
-        yield return null;
-    }
-
 }

@@ -428,6 +428,7 @@ public class NuitrackManager : MonoBehaviour
                 }
 
                 //licenseInfo = JsonUtility.FromJson<LicenseInfo>(nuitrack.Nuitrack.GetDeviceList());
+                wave_DebugUI.debugText.text += devicesInfo +"\n";
 
                 Debug.Log(
                     "Nuitrack Start Info:\n" +
@@ -438,7 +439,7 @@ public class NuitrackManager : MonoBehaviour
             Nuitrack.UpdateConfig();
 
             Debug.Log("Nuitrack Init OK");
-            wave_DebugUI.debugText.text = "Nuitrack Init OK";
+            wave_DebugUI.debugText.text += "Nuitrack Init OK\n";
 
             Nuitrack.Run();
             Debug.Log("Nuitrack Run OK");
