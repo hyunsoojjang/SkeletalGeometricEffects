@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.Timeline;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace GeoFx
 {
@@ -13,9 +14,9 @@ namespace GeoFx
     {
         #region Editable variables
 
-        [SerializeField] Animator _sourceAnimator = null;
+        [SerializeField] public Animator _sourceAnimator = null;
 
-        [SerializeField, Range(0, 0.5f)]public float _baseRadius = 0.25f;
+        [SerializeField, Range(0, 0.5f)] public float _baseRadius = 0.25f;
         [SerializeField, Range(0, 0.025f)] public float _stripWidth = 0.015f;
         [SerializeField, Range(0, 10)] public float _stripSpeed = 4;
         [SerializeField, Range(0, 5)] public float _stripLength = 2;
@@ -39,7 +40,8 @@ namespace GeoFx
 
         #region Bone definitions
 
-        [System.Serializable] struct Bone
+        [System.Serializable]
+        struct Bone
         {
             public HumanBodyBones JointFrom;
             public HumanBodyBones JointTo;
@@ -53,7 +55,8 @@ namespace GeoFx
             }
         }
 
-        [SerializeField] Bone[] _boneList = new []
+        [SerializeField]
+        Bone[] _boneList = new[]
         {
             new Bone(HumanBodyBones.Hips,          HumanBodyBones.LeftUpperLeg,  1),
             new Bone(HumanBodyBones.LeftUpperLeg,  HumanBodyBones.LeftLowerLeg,  1),
@@ -149,8 +152,8 @@ namespace GeoFx
 
         #region Mesh operations
 
-        List<Vector3> _vertices  = new List<Vector3>();
-        List<Vector3> _normals   = new List<Vector3>();
+        List<Vector3> _vertices = new List<Vector3>();
+        List<Vector3> _normals = new List<Vector3>();
         List<Vector2> _texcoords = new List<Vector2>();
         Mesh _mesh;
 
@@ -159,36 +162,49 @@ namespace GeoFx
             var vcount = _boneList.Length * 2;
             var indices = new int[vcount];
             for (var i = 0; i < vcount; i++) indices[i] = i;
-            _mesh.SetIndices(indices, MeshTopology.Lines, 0);
+          /*if(_mesh .vertexCount> 0)*/  _mesh.SetIndices(indices, MeshTopology.Lines, 0);
             _mesh.bounds = new Bounds(Vector3.zero, Vector3.one * 1000);
         }
 
         void UpdateMesh()
         {
-            _vertices .Clear();
-            _normals  .Clear();
+            _vertices.Clear();
+            _normals.Clear();
             _texcoords.Clear();
+            //if (_sourceAnimator)
+            //{
 
-            foreach (var bone in _boneList)
-            {
-                var joint1 = _sourceAnimator.GetBoneTransform(bone.JointFrom);
-                var joint2 = _sourceAnimator.GetBoneTransform(bone.JointTo);
+                foreach (var bone in _boneList)
+                {
 
-                _vertices.Add(joint1.position);
-                _vertices.Add(joint2.position);
+                    var joint1 = _sourceAnimator.GetBoneTransform(bone.JointFrom);
+                    var joint2 = _sourceAnimator.GetBoneTransform(bone.JointTo);
 
-                _normals.Add(joint1.up);
-                _normals.Add(joint2.up);
 
-                _texcoords.Add(Vector2.one * bone.Radius);
-                _texcoords.Add(Vector2.one * bone.Radius);
-            }
+                    //if(joint1 || joint2)
+                    //{
 
-            _mesh.SetVertices(_vertices);
-            _mesh.SetNormals(_normals);
-            _mesh.SetUVs(0, _texcoords);
+                    _vertices.Add(joint1.position);
+                    _vertices.Add(joint2.position);
 
-            if (_mesh.GetIndexCount(0) == 0) InitializeIndices();
+                    _normals.Add(joint1.up);
+                    _normals.Add(joint2.up);
+
+
+                    _texcoords.Add(Vector2.one * bone.Radius);
+                    _texcoords.Add(Vector2.one * bone.Radius);
+                    //}
+
+                }
+
+                _mesh.SetVertices(_vertices);
+                _mesh.SetNormals(_normals);
+                _mesh.SetUVs(0, _texcoords);
+
+                if (_mesh.GetIndexCount(0) == 0) InitializeIndices();
+
+            //}
+
         }
 
         void DrawMesh()
@@ -260,6 +276,7 @@ namespace GeoFx
 
         void LateUpdate()
         {
+            //if (_sourceAnimator == null) return;
             // Lazy initialization
             if (_mesh == null)
             {
@@ -280,3 +297,5 @@ namespace GeoFx
         #endregion
     }
 }
+
+

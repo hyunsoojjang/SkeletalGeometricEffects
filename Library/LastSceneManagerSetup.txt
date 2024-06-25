@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scene/Dance0530(Live).unity
+- path: Assets/Scene/Dance0621(Zed).unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

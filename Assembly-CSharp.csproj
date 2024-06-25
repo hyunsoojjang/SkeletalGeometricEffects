@@ -57,48 +57,87 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\PostProcessing\Runtime\Components\FxaaComponent.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\Display\ZEDFusedPointCloudRenderer.cs" />
+    <Compile Include="Assets\ZED\Tools\Mixed Reality Calibration\Scripts\RotateOnAxes_MRCalib.cs" />
+    <Compile Include="Assets\ZED\Tools\Mixed Reality Calibration\Scripts\ChooseTrackedObjectMenu.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\ZEDManager.cs" />
     <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Test\Rotate.cs" />
     <Compile Include="Assets\Scripts\Protocol.cs" />
     <Compile Include="Assets\URG\UrgDevice.cs" />
+    <Compile Include="Assets\ZED\Examples\Drone Shooter\Resources\Muzzleflash_FX\WFX_Demo_DeleteAfterDelay.cs" />
+    <Compile Include="Assets\ZED\Examples\Planetarium\Scripts\AsteroidsManager.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\ObjectDetection\BodyTrackingFrame.cs" />
     <Compile Include="Assets\NuitrackSDK\PoseDetector\Sample\Scripts\PoseItem.cs" />
+    <Compile Include="Assets\ZED\Tools\Mixed Reality Calibration\Scripts\Button3D.cs" />
+    <Compile Include="Assets\ZED\Examples\Dark Room\Scripts\RandomDirectionMover.cs" />
+    <Compile Include="Assets\ZED\Examples\Drone Shooter\Scripts\Simple\Drone.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\ObjectDetection\DetectedObject.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\Motion Capture\FinalAssets\Scripts\GenericRecorder.cs" />
     <Compile Include="Assets\Klak\Math\Perlin.cs" />
+    <Compile Include="Assets\ZED\Examples\Planetarium\Scripts\PlanetariumMover.cs" />
+    <Compile Include="Assets\ZED\Tools\Mixed Reality Calibration\Scripts\MessageDisplay.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\HandTracker\Scripts\ImageItem.cs" />
+    <Compile Include="Assets\ZED\Examples\OpenCV ArUco Detection\Scripts\Core\MarkerObject_MoveToMarkerSimple.cs" />
+    <Compile Include="Assets\ZED\Tools\Mixed Reality Calibration\Scripts\TranslateControl.cs" />
     <Compile Include="Assets\Unity-Logs-Viewer\Reporter\ReporterGUI.cs" />
+    <Compile Include="Assets\ZED\Examples\Drone Shooter\Scripts\Utilities\ZEDProjectile.cs" />
+    <Compile Include="Assets\ZED\Examples\Drone Shooter\Scripts\Simple\DroneSpawner.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\Avatar Animation\Scripts\RiggedAvatar.cs" />
     <Compile Include="Assets\NuitrackSDK\NuitrackDemos\All Modules\Scripts\TouchCameraControls.cs" />
+    <Compile Include="Assets\ZED\Tools\Mixed Reality Calibration\Scripts\TransformControl.cs" />
+    <Compile Include="Assets\ZED\SDK\NativeInterface\ZEDCameraSettings.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\SegmentExample\Scripts\ObjectSpawner.cs" />
+    <Compile Include="Assets\ZED\Tools\Mixed Reality Calibration\Scripts\ToggleButton.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\SegmentExample\Scripts\GameColliders.cs" />
     <Compile Include="Assets\NuitrackSDK\Pointer\Scripts\PointerRotation.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\Utilities\ExportNavMesh.cs" />
+    <Compile Include="Assets\ZED\Examples\Object Detection\Scripts\ZEDCustomObjDetection.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
     <Compile Include="Assets\NuitrackSDK\Frame\Scripts\FrameUtils.cs" />
+    <Compile Include="Assets\ZED\Examples\Dark Room\Scripts\RotateOnAxes.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\Display\ZEDPostProcessingTools.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\Motion Capture\FinalAssets\Scripts\UnityAnimationRecorder.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
     <Compile Include="Assets\NuitrackSDK\Frame\Croppers\UserCropper\Scripts\UserCropper.cs" />
     <Compile Include="Assets\Klak\Math\NoiseGenerator.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\Motion Capture\FinalAssets\Scripts\HumanoidRecoder.cs" />
+    <Compile Include="Assets\ZED\Examples\OpenCV ArUco Detection\Scripts\Core\MarkerObject_CreateObjectsAtMarkers.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\SpatialMapping\ZEDMeshRenderer.cs" />
     <Compile Include="Assets\NuitrackSDK\NuitrackDemos\All Modules\Scripts\ModuleVisualisations\HandTrackerVisualization.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\AR Nuitrack\Extensions\Scripts\BackForce.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
+    <Compile Include="Assets\ZED\Tools\Mixed Reality Calibration\Scripts\CameraAnchor.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\RGBandSkeletons\FinalAssets\Scripts\SkeletonController.cs" />
+    <Compile Include="Assets\ZED\Tools\Mixed Reality Calibration\Scripts\TransformGrabbable.cs" />
+    <Compile Include="Assets\ZED\Tools\Mixed Reality Calibration\Scripts\PrimaryHandSwitcher.cs" />
     <Compile Include="Assets\NuitrackSDK\Faces\FaceView\Scripts\UIFacesManager.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\PlaneDetection\ZEDPlaneGameObject.cs" />
+    <Compile Include="Assets\ZED\Examples\Object Detection\Scripts\ObjIDText.cs" />
     <Compile Include="Assets\NuitrackSDK\PoseDetector\Scripts\PoseDetector.cs" />
     <Compile Include="Assets\NuitrackSDK\Faces\PointsFace\UIPointsFace.cs" />
     <Compile Include="Assets\Unity-Logs-Viewer\Reporter\MultiKeyDictionary.cs" />
+    <Compile Include="Assets\ZED\Tools\Mixed Reality Calibration\Scripts\SetControllerSkin.cs" />
     <Compile Include="Assets\NuitrackSDK\Frame\Scripts\FrameMixer.cs" />
     <Compile Include="Assets\URG\SCIP_library.cs" />
+    <Compile Include="Assets\ZED\Examples\OpenCV ArUco Detection\Scripts\Core\ZEDArUcoDetectionManager.cs" />
     <Compile Include="Assets\NuitrackSDK\Pointer\Scripts\PointerPassing.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\AR Nuitrack\ShaderGraphSample\Scripts\ShaderGraphRender.cs" />
+    <Compile Include="Assets\ZED\Examples\OpenCV ArUco Detection\Scripts\Core\MarkerObject_MoveToMarker.cs" />
     <Compile Include="Assets\Skinner\SkinnerTrailTemplate.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
+    <Compile Include="Assets\ZED\Examples\Multi Cam\Scripts\ViewControl.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\ErrorDisplay.cs" />
+    <Compile Include="Assets\ZED\SDK\NativeInterface\ZEDMat.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
+    <Compile Include="Assets\ZED\Examples\Multi Cam\Scripts\EnableWhenReady.cs" />
+    <Compile Include="Assets\ZED\Tools\Mixed Reality Calibration\Scripts\FrustumDisplay.cs" />
     <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Reporter.cs" />
     <Compile Include="Assets\UrgVisualize\Scripts\UrgVisualize.cs" />
     <Compile Include="Assets\NuitrackSDK\Frame\Croppers\Scripts\Cropper.cs" />
+    <Compile Include="Assets\ZED\Examples\OpenCV ArUco Detection\Scripts\Drone Wars\ArUcoDroneLaser.cs" />
     <Compile Include="Assets\Scripts\FullscreenGameView.cs" />
     <Compile Include="Assets\NuitrackSDK\Frame\Scripts\ToTextureModules\SegmentToTexture.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\VignetteComponent.cs" />
@@ -109,32 +148,51 @@
     <Compile Include="Assets\PostProcessing\Runtime\Components\TaaComponent.cs" />
     <Compile Include="Assets\Skinner\Internal\CullingStateController.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
+    <Compile Include="Assets\ZED\Examples\Dark Room\Scripts\StrobeLight.cs" />
     <Compile Include="Assets\Skinner\SkinnerParticle.cs" />
     <Compile Include="Assets\Scripts\LidarAction.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\FaceTracker\FinalAssets\Scripts\FaceController.cs" />
+    <Compile Include="Assets\ZED\Tools\Mixed Reality Calibration\Scripts\ParentToGrandparentOnStart.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\ErrorSolver\NuitrackErrorSolver.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\AR Nuitrack\Extensions\Scripts\RigidbodySkeletonManager.cs" />
+    <Compile Include="Assets\ZED\Examples\OpenCV ArUco Detection\Scripts\Core\MarkerObject.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\VignetteModel.cs" />
     <Compile Include="Assets\Scripts\Wave_DebugUI.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\First Project\NativeAvatar.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\GrainModel.cs" />
     <Compile Include="Assets\Skinner\SkinnerSource.cs" />
+    <Compile Include="Assets\ZED\Examples\Plane Detection\Scripts\CapsuleFollower.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\PostProcessingModel.cs" />
+    <Compile Include="Assets\ZED\Examples\Planetarium\Scripts\SunCorona.cs" />
+    <Compile Include="Assets\ZED\Tools\Mixed Reality Calibration\Scripts\CalibModeSwitcher.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\Interactions\ZEDOffsetController.cs" />
+    <Compile Include="Assets\ZED\Tools\Mixed Reality Calibration\Scripts\ChooseTrackedObjectButton.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\Animated Emoji\Final Assets\Scripts\FaceAnimManager.cs" />
     <Compile Include="Assets\Klak\Extension\VectorMathExtension.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\Zombie Nightmare (VR)\Final Assets\Scripts\ZombieController.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\SegmentExample\Scripts\SegmentPaint.cs" />
     <Compile Include="Assets\NuitrackSDK\NuitrackDemos\All Modules\Scripts\ModulesUI.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\Box (VR Mobile)\Scripts\PunchSpeedSender.cs" />
+    <Compile Include="Assets\ZED\Examples\Drone Shooter\Scripts\Utilities\DestroyAfterTime.cs" />
     <Compile Include="Assets\Scripts\Wave_GameManager.cs" />
-    <Compile Include="Assets\NuitrackSDK\NuitrackDemos\All Modules\Scripts\ExceptionsLogger.cs" />
+    <Compile Include="Assets\ZED\Tools\Mixed Reality Calibration\Scripts\ForceTrackingSpaceType.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\ObjectDetection\ObjectDetectionFrame.cs" />
+    <Compile Include="Assets\ZED\Tools\Mixed Reality Calibration\Scripts\AutoCalibrationManager.cs" />
+    <Compile Include="Assets\ZED\Examples\Multi Cam\Scripts\CopyToSurface.cs" />
     <Compile Include="Assets\NuitrackSDK\SensorEnvironment\SensorSpace\SensorSpace.cs" />
+    <Compile Include="Assets\NuitrackSDK\NuitrackDemos\All Modules\Scripts\ExceptionsLogger.cs" />
+    <Compile Include="Assets\Scirpts\Dance_AvatarCenterCheck.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\HandTracker\Scripts\Pointer.cs" />
+    <Compile Include="Assets\ZED\Tools\Mixed Reality Calibration\Scripts\ClickButton.cs" />
     <Compile Include="Assets\NuitrackSDK\Pointer\Scripts\VVRInput.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\PostProcessingProfile.cs" />
     <Compile Include="Assets\Skinner\Internal\SkinnerInternals.cs" />
+    <Compile Include="Assets\ZED\Examples\Object Detection\Scripts\BBox3DHandler.cs" />
+    <Compile Include="Assets\ZED\Examples\OpenCV ArUco Detection\Scripts\Core\ZEDToOpenCVRetriever.cs" />
     <Compile Include="Assets\NuitrackSDK\Avatar\3D Avatar\Scripts\NuitrackAvatar.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\ErrorSolver\ProgramStarter.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\Utilities\GUIMessage.cs" />
+    <Compile Include="Assets\ZED\Examples\Plane Detection\Scripts\Bunny.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\CalibrationRotationScripts\CalibrationHandler.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\GrainComponent.cs" />
     <Compile Include="Assets\NuitrackSDK\Avatar\3D Avatar\Scripts\ModelJoint.cs" />
@@ -143,39 +201,59 @@
     <Compile Include="Assets\NuitrackSDK\NuitrackDemos\All Modules\Scripts\NuitrackModules.cs" />
     <Compile Include="Assets\Unity-Logs-Viewer\Reporter\ReporterMessageReceiver.cs" />
     <Compile Include="Assets\NuitrackSDK\NuitrackDemos\All Modules\Scripts\CameraFullscreen.cs" />
+    <Compile Include="Assets\ZED\Examples\Plane Detection\Scripts\Capsule.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\Interactions\ZEDControllerManager.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\PostProcessingContext.cs" />
     <Compile Include="Assets\NuitrackSDK\Frame\Blur\Scripts\Blur.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\Interactions\ZEDControllerTracker_DemoInputs.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
+    <Compile Include="Assets\ZED\Tools\Mixed Reality Calibration\Scripts\ZEDXRGrabber.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
+    <Compile Include="Assets\ZED\Tools\Mixed Reality Calibration\Scripts\RotateRing.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\Lighting\ZEDLight.cs" />
     <Compile Include="Assets\Klak\Math\XXHash.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\Interactions\ZEDTransformController.cs" />
     <Compile Include="Assets\NuitrackSDK\NuitrackDemos\FacePoints\FaceVizualizer.cs" />
+    <Compile Include="Assets\ZED\Examples\Object Detection\Scripts\ZED2DObjectVisualizer.cs" />
     <Compile Include="Assets\NuitrackSDK\Avatar\UI Avatar\Scripts\UIAvatar.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\UserLutModel.cs" />
     <Compile Include="Assets\Skinner\SkinnerModel.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\Zombie Nightmare (VR)\Final Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\BodyTracking\SkeletonHandler.cs" />
     <Compile Include="Assets\Scripts\MainThreadDispatcher.cs" />
+    <Compile Include="Assets\ZED\Examples\Drone Shooter\Scripts\Utilities\ILaserable.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\BloomComponent.cs" />
+    <Compile Include="Assets\ZED\Examples\Dark Room\Scripts\DisableUntilZEDReady.cs" />
     <Compile Include="Assets\Skinner\SkinnerGlitch.cs" />
     <Compile Include="Assets\Skinner\SkinnerParticleTemplate.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\SegmentExample\Scripts\GameProgress.cs" />
+    <Compile Include="Assets\ZED\Tools\Mixed Reality Calibration\Scripts\TranslateArrow.cs" />
     <Compile Include="Assets\NuitrackSDK\NuitrackDemos\All Modules\Scripts\ModuleVisualisations\GesturesVisualization.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\AR Nuitrack\Final Assets\Scripts\MeshGenerator.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
     <Compile Include="Assets\Scripts\URGPosSetter.cs" />
     <Compile Include="Assets\Skinner\SkinnerTrail.cs" />
+    <Compile Include="Assets\ZED\Examples\OpenCV ArUco Detection\Scripts\Drone Wars\AssertObjectExistenceOnEnable.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\BodyTracking\ZEDSkeletonAnimator.cs" />
+    <Compile Include="Assets\ZED\Tools\Mixed Reality Calibration\Scripts\DrawOutputToPlane.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\HandPressure.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\CalibrationRotationScripts\CameraRecenter.cs" />
     <Compile Include="Assets\NuitrackSDK\Frame\Scripts\ToTextureModules\DepthToTexture.cs" />
+    <Compile Include="Assets\ZED\Examples\OpenCV ArUco Detection\Scripts\Simple Placement\ScaleToMarkerSize.cs" />
+    <Compile Include="Assets\ZED\Examples\Object Detection\Scripts\ZED3DObjectVisualizer.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\Box (VR Mobile)\Scripts\PunchSpeedMeter.cs" />
     <Compile Include="Assets\Klak\Motion\BrownianMotion.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\NuitrackAssembly\iOS\IOSBuildPostprocess.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\JsonInfo.cs" />
+    <Compile Include="Assets\ZED\SDK\NativeInterface\ZEDCamera.cs" />
     <Compile Include="Assets\NuitrackSDK\NuitrackCalibrationRGB\Scripts\RGBCalibrationVisualizer.cs" />
+    <Compile Include="Assets\ZED\Examples\Drone Shooter\Scripts\Simple\PlayerDamageReceiver.cs" />
     <Compile Include="Assets\NuitrackSDK\NuitrackDemos\All Modules\Scripts\ModuleVisualisations\UserTrackerVisualization.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\NuitrackConfigHandler.cs" />
     <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Test\TestReporter.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\NuitrackAI\Final Assets\ObjectDetector.cs" />
     <Compile Include="Assets\NuitrackSDK\Frame\Scripts\FrameProvider.cs" />
+    <Compile Include="Assets\ZED\Examples\OpenCV ArUco Detection\Scripts\Drone Wars\OscillatePosition.cs" />
     <Compile Include="Assets\NuitrackSDK\Faces\FaceView\Scripts\UIFaceInfo.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\UserLutComponent.cs" />
     <Compile Include="Assets\UrgVisualize\Scripts\UrgControl.cs" />
@@ -183,57 +261,94 @@
     <Compile Include="Assets\NuitrackSDK\Tutorials\Zombie Nightmare (VR)\Final Assets\Scripts\NuitrackLegs.cs" />
     <Compile Include="Assets\NuitrackSDK\SafetyGrid\Scripts\SafetyGrid.cs" />
     <Compile Include="Assets\Scripts\SendRequester.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\Interactions\ZEDControllerTracker.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\Animated Emoji\Final Assets\Scripts\FaceAnimController.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\FaceTracker\FinalAssets\Scripts\FaceSwitcher.cs" />
+    <Compile Include="Assets\Scirpts\Dance_RigFix.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\HandTracker\Scripts\GalleryControl.cs" />
+    <Compile Include="Assets\ZED\Tools\Mixed Reality Calibration\Scripts\RotateControl.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\RGBandSkeletons\FinalAssets\Scripts\SimpleSkeletonAvatar.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\Virtual Fitting Room\Advanced Sample\Scripts\ClothBone.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\BodyTracking\HeightOffsetter.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\Box (VR Mobile)\Scripts\RigidbodyFollower.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\NuitrackAttributes.cs" />
     <Compile Include="Assets\NuitrackSDK\NuitrackDemos\All Modules\Scripts\ModuleVisualisations\SkeletonVisualization.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\Display\ZEDPointCloudManager.cs" />
     <Compile Include="Assets\NuitrackSDK\PoseDetector\Sample\Scripts\PoseViewer.cs" />
     <Compile Include="Assets\Scripts\Wave_VideoManager.cs" />
+    <Compile Include="Assets\ZED\Tools\Mixed Reality Calibration\Scripts\AutoCalibBall.cs" />
     <Compile Include="Assets\NuitrackSDK\Avatar\3D Avatar\Scripts\SkeletonAvatar.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\BodyTracking\VirtualCamController.cs" />
+    <Compile Include="Assets\ZED\Examples\Planetarium\Scripts\SunBursts.cs" />
     <Compile Include="Assets\Scripts\TRACE.cs" />
+    <Compile Include="Assets\ZED\Tools\Mixed Reality Calibration\Scripts\BellyMenu.cs" />
     <Compile Include="Assets\NuitrackSDK\Frame\Scripts\ToTextureModules\RGBToTexture.cs" />
+    <Compile Include="Assets\ZED\Examples\OpenCV ArUco Detection\Scripts\Core\OpenCVPackageDetector.cs" />
     <Compile Include="Assets\NuitrackSDK\Avatar\UI Avatar\Scripts\SkeletonsUI.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\Display\HideFromWrongCameras.cs" />
     <Compile Include="Assets\Scripts\URGPosUI.cs" />
+    <Compile Include="Assets\ZED\Examples\Plane Detection\Scripts\BunnySpawner.cs" />
     <Compile Include="Assets\NuitrackSDK\NuitrackDemos\All Modules\Scripts\EmergencyExit.cs" />
     <Compile Include="Assets\NuitrackSDK\NuitrackDemos\All Modules\FPSCounter\FPSCounter.cs" />
+    <Compile Include="Assets\ZED\Examples\OpenCV ArUco Detection\Scripts\Core\EnableIfOpenCVNotDetected.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\SegmentExample\Scripts\FallingObject.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
     <Compile Include="Assets\NuitrackSDK\Frame\Scripts\TextureUtils.cs" />
     <Compile Include="Assets\URG\ShowUrg.cs" />
+    <Compile Include="Assets\ZED\Examples\Object Placement\Scripts\PlaceOnScreen.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\DitheringComponent.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\SpatialMapping\ZEDSpatialMapping.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\Zombie Nightmare (VR)\Final Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\ZED\Examples\OpenCV ArUco Detection\Scripts\Drone Wars\ArUcoDrone.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\AR Nuitrack\Extensions\Scripts\RigidbodySkeletonController.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\PostProcessingComponent.cs" />
+    <Compile Include="Assets\ZED\Examples\Dark Room\Scripts\LightShow.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\Motion Capture\FinalAssets\Scripts\AnimatorAvatar.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\NuitrackManager.cs" />
+    <Compile Include="Assets\ZED\Examples\Drone Shooter\Scripts\Simple\LaserGun.cs" />
     <Compile Include="Assets\Scripts\FadeEvent.cs" />
     <Compile Include="Assets\Scripts\InputFieldValueUpdater.cs" />
     <Compile Include="Assets\URG\UrgDeviceEthernet.cs" />
     <Compile Include="Assets\NuitrackSDK\Pointer\Scripts\PointerVisuals.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\BodyTracking\ZEDBodyTrackingManager.cs" />
+    <Compile Include="Assets\ZED\Examples\Planetarium\Scripts\LookAtCamera.cs" />
+    <Compile Include="Assets\ZED\Examples\Green Screen\Scripts\GreenScreenManager.cs" />
+    <Compile Include="Assets\ZED\Examples\Planetarium\Scripts\PlanetMover.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\MR\ZEDMirror.cs" />
+    <Compile Include="Assets\ZED\Examples\Drone Shooter\Scripts\Simple\LaserShot_Drone.cs" />
     <Compile Include="Assets\NuitrackSDK\NuitrackCalibrationRGB\Scripts\SensorDisconnectChecker.cs" />
     <Compile Include="Assets\Scirpts\Dance_AvatarContorller.cs" />
+    <Compile Include="Assets\ZED\Tools\Mixed Reality Calibration\Scripts\TempAudioObject.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
+    <Compile Include="Assets\ZED\Examples\Object Detection\Scripts\BBox2DHandler.cs" />
+    <Compile Include="Assets\Scirpts\Dance_HumanChecker.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
+    <Compile Include="Assets\ZED\Examples\Body Tracking\Scripts\AimAt.cs" />
+    <Compile Include="Assets\ZED\SDK\NativeInterface\ZEDCommon.cs" />
     <Compile Include="Assets\NuitrackSDK\NuitrackDemos\All Modules\Scripts\FovVisualSetter.cs" />
     <Compile Include="Assets\NuitrackSDK\PoseDetector\Scripts\NuitrackPose.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\Utilities\Utils.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\JumpTrainer\Final Assets\Scripts\JumpTrainer.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\UserManager\UserData.cs" />
+    <Compile Include="Assets\ZED\Examples\Green Screen\Scripts\GarbageMatte.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
     <Compile Include="Assets\Klak\Math\Interpolator.cs" />
+    <Compile Include="Assets\ZED\Tools\Mixed Reality Calibration\Scripts\SpotlightFollow.cs" />
     <Compile Include="Assets\Klak\Motion\ConstantMotion.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\Utilities\ZEDSVOManager.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\Motion Capture\FinalAssets\Scripts\IRecordable.cs" />
+    <Compile Include="Assets\ZED\SDK\NativeInterface\ZEDLayersManager.cs" />
+    <Compile Include="Assets\ZED\Tools\Mixed Reality Calibration\Scripts\ToggleGroup3D.cs" />
     <Compile Include="Assets\NuitrackSDK\NuitrackDemos\Multisensor\FramesController.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\RGBandSkeletons\FinalAssets\Scripts\DrawColorFrame.cs" />
     <Compile Include="Assets\NuitrackSDK\Avatar\Scripts\BaseAvatar.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\Utilities\LayerHandler.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\BodyTracking\RigBone.cs" />
     <Compile Include="Assets\Skinner\SkinnerDebug.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\FogComponent.cs" />
     <Compile Include="Assets\Klak\Math\BasicMath.cs" />
@@ -243,25 +358,41 @@
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\UserManager\TrackedUser.cs" />
     <Compile Include="Assets\NuitrackSDK\Frame\Scripts\ToTextureModules\FrameToTexture.cs" />
     <Compile Include="Assets\NuitrackSDK\NuitrackDemos\All Modules\Scripts\ModuleVisualisations\UserTrackerVisMesh.cs" />
+    <Compile Include="Assets\ZED\Examples\Dark Room\Scripts\RandomDirLightManager.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
     <Compile Include="Assets\Scripts\Game_SoundManager.cs" />
+    <Compile Include="Assets\ZED\Tools\Mixed Reality Calibration\Scripts\CreateZEDModel.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\AR Nuitrack\Final Assets\Scripts\ARNuitrack.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\Utilities\ZEDSupportFunctions.cs" />
     <Compile Include="Assets\Scripts\SliderValueUpdater.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\UserManager\Users.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\Utilities\LoadingFade.cs" />
     <Compile Include="Assets\NuitrackSDK\Frame\Scripts\UI\NuitrackAspectRatioFitter.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\ObjectDetection\DetectedBody.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\NuitrackLoader.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\HandTracker\Scripts\HandsInputModule.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\Utilities\CappedStack.cs" />
+    <Compile Include="Assets\ZED\Examples\Plane Detection\Scripts\BunnyPlacement.cs" />
+    <Compile Include="Assets\ZED\Examples\Drone Shooter\Scripts\Simple\LaserShot_Player.cs" />
     <Compile Include="Assets\UrgVisualize\Scripts\UrgSensing.cs" />
+    <Compile Include="Assets\ZED\Examples\OpenCV ArUco Detection\Scripts\Drone Wars\OscillateRotation.cs" />
+    <Compile Include="Assets\ZED\Examples\Dark Room\Scripts\PitchOscillator.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\LicenseInfo.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\Display\ZEDRenderingPlane.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\Point Cloud\PointCloud.cs" />
     <Compile Include="Assets\NuitrackSDK\Frame\Scripts\DrawSensorFrame.cs" />
+    <Compile Include="Assets\ZED\Tools\Mixed Reality Calibration\Scripts\LookAtCameraPartialAxis.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\Animated Emoji\Scripts\LerpRotation.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\Avatar Animation\Scripts\AdvancedRiggedAvatar.cs" />
     <Compile Include="Assets\Skinner\Internal\SkinnerGlitchTemplate.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\Utilities\ZEDDefineHandler.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\MR\ZEDMixedRealityPlugin.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\NuitrackUtils.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\PlaneDetection\ZEDPlaneDetectionManager.cs" />
+    <Compile Include="Assets\ZED\SDK\Helpers\Scripts\Utilities\ZEDLogMessage.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\SensorData.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\DitheringModel.cs" />
   </ItemGroup>
@@ -269,7 +400,11 @@
     <None Include="Assets\Skinner\Shader\TrailKernels.cginc" />
     <None Include="Assets\NuitrackSDK\Avatar\3D Avatar\Models\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
     <None Include="Assets\CMUMocap\Acknowledgement.txt" />
+    <None Include="Assets\ZED\Examples\Green Screen\Shaders\Mask_Quad.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
+    <None Include="Assets\ZED\Examples\Object Detection\Materials\Mask2DDisplay.shader" />
+    <None Include="Assets\ZED\SDK\Helpers\Shaders\PointCloud\Disk.cginc" />
+    <None Include="Assets\ZED\Examples\Plane Detection\Readme.txt" />
     <None Include="Assets\PostProcessing\Resources\Shaders\GrainGen.shader" />
     <None Include="Assets\NuitrackSDK\Nuitrack\Shaders\GvrUnlitTransparentOverlayColor.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
@@ -280,9 +415,16 @@
     <None Include="Assets\NuitrackSDK\Nuitrack\NuitrackAssembly\iOS\nuitrack.net.dll" />
     <None Include="Assets\Skinner\Shader\ReplacementNormal.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
+    <None Include="Assets\ZED\Examples\Green Screen\Shaders\ComputeGreenScreen.shader" />
+    <None Include="Assets\ZED\Tools\Mixed Reality Calibration\README.txt" />
+    <None Include="Assets\ZED\Examples\Movie Screen\Readme.txt" />
     <None Include="Assets\NuitrackSDK\Frame\Shaders\TextureUtils.compute" />
     <None Include="Assets\NuitrackSDK\Avatar\3D Avatar\Models\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
+    <None Include="Assets\ZED\Examples\Object Detection\Materials\TopBottomBBox.shader" />
+    <None Include="Assets\ZED\SDK\Shaders\ZED_Unlit_BGRA.shader" />
     <None Include="Assets\Skinner\Shader\ParticleMotion.cginc" />
+    <None Include="Assets\ZED\Examples\Dark Room\ReadMe.txt" />
+    <None Include="Assets\ZED\Examples\Planetarium\Resources\Earth\Shaders\Earth.shader" />
     <None Include="Assets\Skinner\Shader\Debug.cginc" />
     <None Include="Assets\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
     <None Include="Assets\NuitrackSDK\NuitrackDemos\All Modules\Shaders\DepthSegmentationCustom.shader" />
@@ -291,40 +433,65 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\LutGen.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
     <None Include="Assets\Skinner\Shader\GlitchKernels.shader" />
+    <None Include="Assets\ZED\Examples\Planetarium\Resources\Saturn\Shader\Unliteferred.shader" />
     <None Include="Assets\NuitrackSDK\Avatar\3D Avatar\Models\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
     <None Include="Assets\Test\Dummy.shader" />
+    <None Include="Assets\ZED\SDK\Helpers\Shaders\SpatialMapping\WireframeVideoOverlay.shader" />
+    <None Include="Assets\ZED\SDK\Helpers\Shaders\GUI\ZED_Fade.shader" />
     <None Include="Assets\NuitrackSDK\Nuitrack\NuitrackAssembly\iOS\link.xml" />
     <None Include="Assets\NuitrackSDK\Avatar\3D Avatar\Models\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
     <None Include="Assets\GeoFx\Shader\Common.hlsl" />
     <None Include="Assets\Skinner\Shader\GlitchKernels.cginc" />
+    <None Include="Assets\ZED\SDK\Helpers\Shaders\Unlit\ZED_Unlit.shader" />
     <None Include="Assets\Skinner\Shader\TrailSurface.shader" />
+    <None Include="Assets\ZED\Examples\Spatial Mapping\Shaders\Unlit_Transparent.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\TAA.cginc" />
     <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
     <None Include="Assets\Skinner\Shader\GlitchSurface.cginc" />
     <None Include="Assets\Skinner\Shader\ParticleKernels.shader" />
+    <None Include="Assets\ZED\Examples\Drone Shooter\Readme.txt" />
+    <None Include="Assets\ZED\SDK\Helpers\Shaders\PostProcessing\ZED_Surface_PostProcessing.shader" />
     <None Include="Assets\NuitrackSDK\README.txt" />
     <None Include="Assets\NuitrackSDK\Frame\Blur\Shader\BlurShader.compute" />
+    <None Include="Assets\ZED\Examples\Planetarium\Readme.txt" />
+    <None Include="Assets\ZED\Examples\Plane Detection\Models\Readme.txt" />
+    <None Include="Assets\ZED\Examples\Drone Shooter\Resources\explosion\Particle_Softrim_Dissolve_alpha.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
     <None Include="Assets\Skinner\Shader\ReplacementPosition.shader" />
+    <None Include="Assets\ZED\SDK\Helpers\Resources\PrefabsUI\Shader\OverlayCustom.shader" />
     <None Include="Assets\NuitrackSDK\Tutorials\FinalIK\README FinalIK.txt" />
+    <None Include="Assets\ZED\SDK\Helpers\Shaders\SpatialMapping\Postprocess_blend.shader" />
     <None Include="Assets\Skinner\Shader\Common.cginc" />
+    <None Include="Assets\ZED\Examples\Green Screen\Readme.txt" />
+    <None Include="Assets\ZED\SDK\Helpers\Shaders\ZED_PointCloud.shader" />
     <None Include="Assets\NuitrackSDK\Tutorials\Motion Capture\Animations\YOUR_ANIMATIONS_WILL_BE_HERE.txt" />
+    <None Include="Assets\ZED\SDK\Helpers\Shaders\ZED_Utils.cginc" />
     <None Include="Assets\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
+    <None Include="Assets\ZED\Examples\OpenCV ArUco Detection\Shaders\UnlitTrans.shader" />
     <None Include="Assets\Skinner\Shader\Replacement.cginc" />
+    <None Include="Assets\ZED\Examples\Drone Shooter\Resources\Muzzleflash_FX\WFX_S Particle Add A8.shader" />
     <None Include="Assets\NuitrackSDK\Avatar\3D Avatar\Models\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
     <None Include="Assets\NuitrackSDK\Avatar\3D Avatar\Models\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
+    <None Include="Assets\ZED\SDK\Plugins\win64\sl_unitywrapper.dll" />
     <None Include="Assets\NuitrackSDK\Tutorials\AR Football\README AR Football.txt" />
+    <None Include="Assets\ZED\Examples\Green Screen\Shaders\Outlined.shader" />
     <None Include="Assets\NuitrackSDK\Avatar\README.txt" />
     <None Include="Assets\Skinner\Shader\Replacement.shader" />
     <None Include="Assets\NuitrackSDK\Nuitrack\NuitrackAssembly\IL2CPP\nuitrack.net.dll" />
+    <None Include="Assets\ZED\Examples\Planetarium\Resources\Self-Illumin.shader" />
     <None Include="Assets\NuitrackSDK\Tutorials\Virtual Fitting Room\Advanced Sample\Readme [fitting room sample].txt" />
     <None Include="Assets\NuitrackSDK\NuitrackDemos\All Modules\Shaders\CustomMesh.shader" />
     <None Include="Assets\GeoFx\Shader\Skeleton.hlsl" />
     <None Include="Assets\NuitrackSDK\Nuitrack\Shaders\ui_zignore_image.shader" />
+    <None Include="Assets\ZED\Examples\Drone Shooter\Resources\Shaders\AlphaBlendTransition.shader" />
+    <None Include="Assets\ZED\SDK\Helpers\Shaders\Lighting\ZED_Forward_Lighting_URP.shader" />
+    <None Include="Assets\ZED\Examples\Green Screen\Shaders\GreenScreen.shader" />
     <None Include="Assets\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
     <None Include="Assets\NuitrackSDK\Frame\Shaders\BGR2RGB.compute" />
+    <None Include="Assets\ZED\SDK\Helpers\Shaders\GUI\ZED_Default_OverlayNoZTest.shader" />
+    <None Include="Assets\ZED\Examples\Green Screen\Shaders\YUV.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\ACES.cginc" />
     <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
     <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
@@ -333,48 +500,83 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\FXAA.shader" />
     <None Include="Assets\NuitrackSDK\Tutorials\AR Nuitrack\ShaderGraphSample\README.txt" />
     <None Include="Assets\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
+    <None Include="Assets\ZED\SDK\Helpers\Shaders\PlaneDetection\GeometryWirePlane.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
     <None Include="Assets\NuitrackSDK\Nuitrack\Shaders\ui_zigonre_font.shader" />
     <None Include="Assets\Skinner\Shader\TrailMotion.cginc" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Fog.shader" />
+    <None Include="Assets\ZED\Examples\Planetarium\Resources\Sun\Shader\Sun.shader" />
+    <None Include="Assets\ZED\SDK\Helpers\Shaders\PostProcessing\ZED_Post-Processing.shader" />
+    <None Include="Assets\ZED\SDK\Helpers\Shaders\Unlit\ZED_Unlit_RawInput.shader" />
+    <None Include="Assets\ZED\SDK\Helpers\Shaders\Lighting\ZED_Forward.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.shader" />
     <None Include="Assets\NuitrackSDK\Avatar\3D Avatar\Models\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
     <None Include="Assets\NuitrackSDK\Frame\Shaders\Depth2Texture.compute" />
+    <None Include="Assets\ZED\SDK\Helpers\Shaders\Lighting\ZED_Forward_Lighting.shader" />
     <None Include="Assets\Skinner\Shader\TrailKernels.shader" />
     <None Include="Assets\NuitrackSDK\Nuitrack\NuitrackAssembly\nuitrack.net.dll" />
+    <None Include="Assets\ZED\Tools\Mixed Reality Calibration\Shaders\SurfaceDarkenable.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
     <None Include="Assets\Skinner\Shader\Debug.shader" />
     <None Include="Assets\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
     <None Include="Assets\Skinner\Shader\ParticleSurface.cginc" />
     <None Include="Assets\PostProcessing\Editor Resources\UI\Trackball.shader" />
+    <None Include="Assets\ZED\Examples\Spatial Mapping\ZomShooter\LICENSE.txt" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
     <None Include="Assets\NuitrackSDK\Avatar\3D Avatar\Models\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
     <None Include="Assets\NuitrackSDK\NuitrackDemos\All Modules\Shaders\DiffuseVertexColored.shader" />
+    <None Include="Assets\ZED\SDK\Helpers\Shaders\PostProcessing\ZED_ComposeMask.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Common.cginc" />
+    <None Include="Assets\ZED\Tools\Mixed Reality Calibration\Shaders\UnlitDarkenable.shader" />
     <None Include="Assets\GeoFx\Shader\SimplexNoise2D.hlsl" />
     <None Include="Assets\Skinner\Shader\ParticleSurfaceStandard.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Bloom.shader" />
+    <None Include="Assets\ZED\Examples\Drone Shooter\Resources\DamageSmoke_FX\PriorityParticleAdd.shader" />
     <None Include="Assets\NuitrackSDK\NuitrackDemos\Multisensor\Readme.txt" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Uber.shader" />
+    <None Include="Assets\ZED\Examples\Planetarium\Resources\Earth\Shaders\FresnelShader.shader" />
+    <None Include="Assets\ZED\SDK\Helpers\Shaders\PostProcessing\ZED_StencilToMask.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.shader" />
+    <None Include="Assets\ZED\SDK\Helpers\Shaders\Lighting\ZED_Lighting_URP.cginc" />
     <None Include="Assets\PostProcessing\Resources\Shaders\TAA.shader" />
+    <None Include="Assets\ZED\SDK\Helpers\Shaders\Lighting\ZED_Deferred_Lighting.shader" />
+    <None Include="Assets\ZED\SDK\Helpers\Shaders\PointCloud\Disk.shader" />
+    <None Include="Assets\ZED\Examples\Multi Cam\README.txt" />
     <None Include="Assets\Skinner\Shader\GlitchSurface.shader" />
+    <None Include="Assets\ZED\Examples\Planetarium\Resources\Sun\Shader\InnerGlow.shader" />
+    <None Include="Assets\ZED\Examples\Green Screen\Shaders\Preprocess.shader" />
+    <None Include="Assets\ZED\Examples\Planetarium\Resources\Orbits\Materials\RingShader.shader" />
+    <None Include="Assets\ZED\SDK\Helpers\Shaders\PointCloud\Point.shader" />
+    <None Include="Assets\ZED\Examples\Drone Shooter\Resources\Muzzleflash_FX\WFX_S Particle AddSoft A8.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Blit.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Bloom.cginc" />
     <None Include="Assets\Skinner\Shader\SourcePlaceholder.shader" />
+    <None Include="Assets\ZED\Examples\Planetarium\Resources\Sun\Shader\SunCorona.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
     <None Include="Assets\NuitrackSDK\NuitrackDemos\Bolt\Readme.txt" />
+    <None Include="Assets\ZED\SDK\Helpers\Shaders\SpatialMapping\Textures.shader" />
     <None Include="Assets\Skinner\Shader\ParticleSurfaceTwoSided.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
     <None Include="Assets\Skinner\Shader\TrailSurface.cginc" />
+    <None Include="Assets\ZED\SDK\Helpers\Shaders\PostProcessing\ZED_Blit.shader" />
+    <None Include="Assets\ZED\Examples\Plane Detection\Textures\Readme.txt" />
+    <None Include="Assets\ZED\Examples\Spatial Mapping\README.txt" />
+    <None Include="Assets\ZED\Examples\Green Screen\Shaders\GreenScreen_URP.shader" />
+    <None Include="Assets\ZED\SDK\Helpers\Shaders\PostProcessing\ZED_Unlit_PostProcessing.shader" />
+    <None Include="Assets\ZED\Tools\Mixed Reality Calibration\Shaders\ColorTexTransparent.shader" />
+    <None Include="Assets\ZED\SDK\Helpers\Shaders\Lighting\ZED_Deferred.shader" />
+    <None Include="Assets\ZED\SDK\Helpers\Shaders\Lighting\ZED_Hide.shader" />
     <None Include="Assets\NuitrackSDK\Tutorials\AR Nuitrack\Final Assets\Shaders\ARNuitrack_Unlit.shader" />
     <None Include="Assets\Skinner\Shader\ReplacementTangent.shader" />
     <None Include="Assets\NuitrackSDK\Avatar\3D Avatar\Models\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
     <None Include="Assets\Skinner\Shader\SimplexNoiseGrad3D.cginc" />
+    <None Include="Assets\ZED\SDK\Helpers\Shaders\Lighting\ZED_Lighting.cginc" />
     <None Include="Assets\NuitrackSDK\Avatar\3D Avatar\Models\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
     <None Include="Assets\GeoFx\Shader\Skeleton.shader" />
+    <None Include="Assets\ZED\SDK\Helpers\Shaders\SpatialMapping\GeometryWireframe.shader" />
+    <None Include="Assets\ZED\SDK\Helpers\Shaders\PostProcessing\ZED_Blur.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -905,26 +1107,11 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.41f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
-    <Reference Include="JP.Keijiro.CMUMocap.Editor">
-      <HintPath>Library\ScriptAssemblies\JP.Keijiro.CMUMocap.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="JP.Keijiro.TestAssets.Editor">
-      <HintPath>Library\ScriptAssemblies\JP.Keijiro.TestAssets.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Kino.Postprocessing">
-      <HintPath>Library\ScriptAssemblies\Kino.Postprocessing.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
@@ -932,23 +1119,11 @@
     <Reference Include="Klak.Math">
       <HintPath>Library\ScriptAssemblies\Klak.Math.dll</HintPath>
     </Reference>
-    <Reference Include="JP.Keijiro.NeoLowMan.Editor">
-      <HintPath>Library\ScriptAssemblies\JP.Keijiro.NeoLowMan.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    <Reference Include="Unity.XR.Management.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Kino.Postprocessing.Editor">
-      <HintPath>Library\ScriptAssemblies\Kino.Postprocessing.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="Klak.Motion.Editor">
-      <HintPath>Library\ScriptAssemblies\Klak.Motion.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Klak.Spout.Runtime">
       <HintPath>Library\ScriptAssemblies\Klak.Spout.Runtime.dll</HintPath>
@@ -956,20 +1131,11 @@
     <Reference Include="Unity.2D.Sprite.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Klak.Motion">
-      <HintPath>Library\ScriptAssemblies\Klak.Motion.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Klak.Spout.Editor">
-      <HintPath>Library\ScriptAssemblies\Klak.Spout.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.SpatialTracking">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
@@ -980,17 +1146,56 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="Klak.Math.Editor">
-      <HintPath>Library\ScriptAssemblies\Klak.Math.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Klak.Wiring">
-      <HintPath>Library\ScriptAssemblies\Klak.Wiring.dll</HintPath>
-    </Reference>
     <Reference Include="Klak.Extensions">
       <HintPath>Library\ScriptAssemblies\Klak.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Klak.Wiring.Editor">
       <HintPath>Library\ScriptAssemblies\Klak.Wiring.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="JP.Keijiro.CMUMocap.Editor">
+      <HintPath>Library\ScriptAssemblies\JP.Keijiro.CMUMocap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="JP.Keijiro.TestAssets.Editor">
+      <HintPath>Library\ScriptAssemblies\JP.Keijiro.TestAssets.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Kino.Postprocessing">
+      <HintPath>Library\ScriptAssemblies\Kino.Postprocessing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Kino.Postprocessing.Editor">
+      <HintPath>Library\ScriptAssemblies\Kino.Postprocessing.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Management">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="Klak.Motion.Editor">
+      <HintPath>Library\ScriptAssemblies\Klak.Motion.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Klak.Motion">
+      <HintPath>Library\ScriptAssemblies\Klak.Motion.dll</HintPath>
+    </Reference>
+    <Reference Include="Klak.Spout.Editor">
+      <HintPath>Library\ScriptAssemblies\Klak.Spout.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Klak.Wiring">
+      <HintPath>Library\ScriptAssemblies\Klak.Wiring.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Klak.Math.Editor">
+      <HintPath>Library\ScriptAssemblies\Klak.Math.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -9,8 +9,9 @@ using UnityEngine;
 
 public class Dance_AvatarContorller : MonoBehaviour
 {
-    public static Dance_AvatarContorller instance;
-
+    public ZEDSkeletonAnimator zedSkelanimator;
+    public Dance_AvatarCenterCheck centerCheck;
+    public SkinnerSource skinSource;
     public Transform hip;
     Vector3 initHippos;
     public Skeleton slekVfx;
@@ -26,6 +27,8 @@ public class Dance_AvatarContorller : MonoBehaviour
     public float avatarRecogRange;
     public bool canAvatarSensing;
 
+    float initAnkleoffset;
+   public  float downAnkleoffset;
     public enum State
     {
         Skeleton,
@@ -41,17 +44,13 @@ public class Dance_AvatarContorller : MonoBehaviour
     public SkinnerState skinnerState;
 
 
-    private void Awake()
-    {
-        if (instance == null)
-        {
-            instance = this;
-        }
-    }
+
     void Start()
     {
+        initAnkleoffset = zedSkelanimator.ankleHeightOffset;
         initHippos = hip.position;
 
+        LimitSensingZed(true);
         //NuitrackManager.Users.OnUserEnter += Users_OnUserEnter;
         //NuitrackManager.Users.OnUserExit += Users_OnUserExit; ;
     }
@@ -125,7 +124,7 @@ public class Dance_AvatarContorller : MonoBehaviour
             switch (skinnerState)
             {
                 case SkinnerState.Particle1:
-                    skinnerParticle1._speedToScale = Mathf.Lerp(skinnerParticle1._speedToScale, 0.3f, Time.deltaTime);
+                    skinnerParticle1._speedToScale = Mathf.Lerp(skinnerParticle1._speedToScale, 0.19f, Time.deltaTime);
                     skinnerParticle2._speedToScale = Mathf.Lerp(skinnerParticle2._speedToScale, 0, Time.deltaTime);
                     skinnerTrail.maxWidth = Mathf.Lerp(skinnerTrail.maxWidth, 0, Time.deltaTime);
 
@@ -203,7 +202,8 @@ public class Dance_AvatarContorller : MonoBehaviour
     private void Update()
     {
 
-        LimitSenseingArea();
+        //LimitSenseingAreaZed();
+
 
         AreaEffect(canAvatarSensing);
 
@@ -235,12 +235,36 @@ public class Dance_AvatarContorller : MonoBehaviour
             }
         }
     }
+    public float fixY;
+    public float fixZ;
+    public bool useFixZ;
+    Vector3 finPos;
+    private void LateUpdate()
+    {
+        if (useFixZ)
+        {
 
-    void LimitSenseingArea()
+            finPos = new Vector3(hip.transform.position.x, hip.transform.position.y, fixZ);
+            hip.transform.position = finPos;
+        }
+        if (!centerCheck.isCenter)
+        {
+            zedSkelanimator.ankleHeightOffset = Mathf.Lerp(zedSkelanimator.ankleHeightOffset, downAnkleoffset, Time.deltaTime*20);
+
+        }
+        else
+        {
+            zedSkelanimator.ankleHeightOffset = Mathf.Lerp(zedSkelanimator.ankleHeightOffset, initAnkleoffset, Time.deltaTime*20);
+
+        }
+
+    }
+
+    void LimitSenseingAreaNuitrack()
     {
         //Debug.Log($"nuitrack sensorsdata count : {NuitrackManager.sensorsData.Count}\n NuitrackManager.Users.Count : {NuitrackManager.Users.Count}\n NuitrackManager.Users.Current : {NuitrackManager.Users.Current}\n");
 
-        if (nuitrackAvatar.ControllerUser != null&& nuitrackAvatar.ControllerUser.Skeleton != null)
+        if (nuitrackAvatar.ControllerUser != null && nuitrackAvatar.ControllerUser.Skeleton != null)
         {
 
             if (hip.position.x <= sensorSpace.position.x + avatarRecogRange
@@ -248,59 +272,65 @@ public class Dance_AvatarContorller : MonoBehaviour
             {
                 canAvatarSensing = true;
             }
-            else 
+            else
             {
                 canAvatarSensing = false;
 
             }
         }
-            if (NuitrackManager.Users.Count<=0) canAvatarSensing = false;
+        if (NuitrackManager.Users.Count <= 0) canAvatarSensing = false;
+    }
+    public void LimitSensingZed(bool isOn)
+    {
+
+        canAvatarSensing = isOn;
+
     }
 
     void AreaEffect(bool isArea)
     {
-    
-            if (isArea)
-            {
 
-                switch (state)
-                {
-                    case State.Skeleton:
-                        SkeletionVisibleLerp();
-                        SkinnerInVisibleLerp();
-                        break;
-                    case State.Skinner:
-                        SkeletionInVisibleLerp();
-                        SkinnerVisibleLerp();
-                        break;
+        if (isArea)
+        {
 
-                }
-            }
-            else
+            switch (state)
             {
-                switch (state)
-                {
-                    case State.Skeleton:
-                        SkeletionInVisibleLerp();
-                        SkinnerInVisibleLerp();
-                        break;
-                    case State.Skinner:
-                        SkeletionInVisibleLerp();
-                        SkinnerInVisibleLerp();
-                        break;
-                    default:
-                        break;
-                }
+                case State.Skeleton:
+                    SkeletionVisibleLerp();
+                    SkinnerInVisibleLerp();
+                    break;
+                case State.Skinner:
+                    SkeletionInVisibleLerp();
+                    SkinnerVisibleLerp();
+                    break;
+
             }
-        
+        }
+        else
+        {
+            switch (state)
+            {
+                case State.Skeleton:
+                    SkeletionInVisibleLerp();
+                    SkinnerInVisibleLerp();
+                    break;
+                case State.Skinner:
+                    SkeletionInVisibleLerp();
+                    SkinnerInVisibleLerp();
+                    break;
+                default:
+                    break;
+            }
+        }
+
     }
 
     // Update is called once per frame
 
     private void OnDestroy()
     {
-        NuitrackManager.Users.OnUserEnter -= Users_OnUserEnter;
-        NuitrackManager.Users.OnUserExit -= Users_OnUserExit; ;
+        //NuitrackManager.Users.OnUserEnter -= Users_OnUserEnter;
+        //NuitrackManager.Users.OnUserExit -= Users_OnUserExit; ;
 
     }
 }

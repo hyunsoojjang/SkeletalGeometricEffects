@@ -85,11 +85,23 @@
     },
     "com.unity.xr.legacyinputhelpers": {
       "version": "2.1.10",
-      "depth": 0,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.vr": "1.0.0",
         "com.unity.modules.xr": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.xr.management": {
+      "version": "4.4.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.subsystems": "1.0.0",
+        "com.unity.modules.vr": "1.0.0",
+        "com.unity.modules.xr": "1.0.0",
+        "com.unity.xr.legacyinputhelpers": "2.1.7"
       },
       "url": "https://packages.unity.com"
     },
@@ -124,13 +136,6 @@
         "com.unity.modules.screencapture": "1.0.0"
       },
       "url": "https://registry.npmjs.com"
-    },
-    "jp.keijiro.neolowman": {
-      "version": "https://github.com/keijiro/NeoLowMan.git#upm",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "f5c336afd91398a640cf954e26ff06a64b551299"
     },
     "jp.keijiro.test-assets": {
       "version": "https://github.com/keijiro/jp.keijiro.test-assets.git",

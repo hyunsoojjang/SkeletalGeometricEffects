@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - HelpObject
+  - FxTemporaire
+  - zomBunny
+  - avatarHip
   layers:
   - Default
   - TransparentFX
@@ -21,6 +25,9 @@ TagManager:
   - 
   - 
   - 
+  - tagInvisibleToZED
+  - frame
+  - Center
   - 
   - 
   - 
@@ -32,10 +39,7 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - arlayer
   - 
   m_SortingLayers:
   - name: Default

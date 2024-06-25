@@ -71,6 +71,8 @@
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\Editor\Wizards\Wizard.cs" />
     <Compile Include="Assets\Skinner\Editor\SkinnerGlitchTemplateEditor.cs" />
     <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Editor\ReporterEditor.cs" />
+    <Compile Include="Assets\neoAvatar\Editor\Selector.cs" />
+    <Compile Include="Assets\ZED\Editor\Scripts\ZEDPluginInspector.cs" />
     <Compile Include="Assets\Skinner\Editor\SkinnerSourceEditor.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\Editor\GUI\NuitrackManagerEditor.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Models\MotionBlurModelEditor.cs" />
@@ -90,6 +92,7 @@
     <Compile Include="Assets\NuitrackSDK\Avatar\Scripts\Editor\BaseAvatarEditor.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Monitors\ParadeMonitor.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Models\DefaultPostFxModelEditor.cs" />
+    <Compile Include="Assets\ZED\Examples\Green Screen\Editor\GreenScreenEditor.cs" />
     <Compile Include="Assets\Skinner\Editor\SkinnerTrailEditor.cs" />
     <Compile Include="Assets\NuitrackSDK\PoseDetector\Scripts\Editor\PoseDetectorEditor.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Utils\EditorResources.cs" />
@@ -104,12 +107,14 @@
     <Compile Include="Assets\NuitrackSDK\PoseDetector\Scripts\Editor\NuitrackPoseEditor.cs" />
     <Compile Include="Assets\Skinner\Editor\SkinnerTrailTemplateEditor.cs" />
     <Compile Include="Assets\NuitrackSDK\PoseDetector\Scripts\Editor\NuitrackPoseWrapper.cs" />
+    <Compile Include="Assets\ZED\Editor\Scripts\ZEDCameraEditor.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\Editor\GUI\NuitrackEditorHelper.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\Editor\PostprocessBuild.cs" />
     <Compile Include="Assets\PostProcessing\Editor\PostProcessingFactory.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Models\ScreenSpaceReflectionModelEditor.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Models\BuiltinDebugViewsEditor.cs" />
     <Compile Include="Assets\Klak\Motion\Editor\SmoothFollowEditor.cs" />
+    <Compile Include="Assets\ZED\Editor\Scripts\RenderingPipelineDefines.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
     <Compile Include="Assets\NuitrackSDK\Avatar\Scripts\Editor\SkeletonMapper\SkeletonMapperGUI.cs" />
@@ -118,6 +123,7 @@
     <Compile Include="Assets\PostProcessing\Editor\PostProcessingModelEditor.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Models\GrainModelEditor.cs" />
     <Compile Include="Assets\NuitrackSDK\Frame\Croppers\Scripts\Editor\CropperEditor.cs" />
+    <Compile Include="Assets\ZED\Editor\Scripts\UpgradePluginToSRP.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\Editor\Wizards\ActivationWizard\NuitrackActivationWizard.cs" />
     <Compile Include="Assets\PostProcessing\Editor\PostProcessingBehaviourEditor.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Models\EyeAdaptationModelEditor.cs" />
@@ -732,26 +738,11 @@
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
     </Reference>
-    <Reference Include="JP.Keijiro.CMUMocap.Editor">
-      <HintPath>Library\ScriptAssemblies\JP.Keijiro.CMUMocap.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="JP.Keijiro.TestAssets.Editor">
-      <HintPath>Library\ScriptAssemblies\JP.Keijiro.TestAssets.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Kino.Postprocessing">
-      <HintPath>Library\ScriptAssemblies\Kino.Postprocessing.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
@@ -759,23 +750,11 @@
     <Reference Include="Klak.Math">
       <HintPath>Library\ScriptAssemblies\Klak.Math.dll</HintPath>
     </Reference>
-    <Reference Include="JP.Keijiro.NeoLowMan.Editor">
-      <HintPath>Library\ScriptAssemblies\JP.Keijiro.NeoLowMan.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    <Reference Include="Unity.XR.Management.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Kino.Postprocessing.Editor">
-      <HintPath>Library\ScriptAssemblies\Kino.Postprocessing.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="Klak.Motion.Editor">
-      <HintPath>Library\ScriptAssemblies\Klak.Motion.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Klak.Spout.Runtime">
       <HintPath>Library\ScriptAssemblies\Klak.Spout.Runtime.dll</HintPath>
@@ -783,20 +762,11 @@
     <Reference Include="Unity.2D.Sprite.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Klak.Motion">
-      <HintPath>Library\ScriptAssemblies\Klak.Motion.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Klak.Spout.Editor">
-      <HintPath>Library\ScriptAssemblies\Klak.Spout.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.SpatialTracking">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
@@ -807,17 +777,56 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="Klak.Math.Editor">
-      <HintPath>Library\ScriptAssemblies\Klak.Math.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Klak.Wiring">
-      <HintPath>Library\ScriptAssemblies\Klak.Wiring.dll</HintPath>
-    </Reference>
     <Reference Include="Klak.Extensions">
       <HintPath>Library\ScriptAssemblies\Klak.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Klak.Wiring.Editor">
       <HintPath>Library\ScriptAssemblies\Klak.Wiring.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="JP.Keijiro.CMUMocap.Editor">
+      <HintPath>Library\ScriptAssemblies\JP.Keijiro.CMUMocap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="JP.Keijiro.TestAssets.Editor">
+      <HintPath>Library\ScriptAssemblies\JP.Keijiro.TestAssets.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Kino.Postprocessing">
+      <HintPath>Library\ScriptAssemblies\Kino.Postprocessing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Kino.Postprocessing.Editor">
+      <HintPath>Library\ScriptAssemblies\Kino.Postprocessing.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Management">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="Klak.Motion.Editor">
+      <HintPath>Library\ScriptAssemblies\Klak.Motion.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Klak.Motion">
+      <HintPath>Library\ScriptAssemblies\Klak.Motion.dll</HintPath>
+    </Reference>
+    <Reference Include="Klak.Spout.Editor">
+      <HintPath>Library\ScriptAssemblies\Klak.Spout.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Klak.Wiring">
+      <HintPath>Library\ScriptAssemblies\Klak.Wiring.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Klak.Math.Editor">
+      <HintPath>Library\ScriptAssemblies\Klak.Math.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

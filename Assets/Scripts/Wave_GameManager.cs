@@ -18,6 +18,9 @@ public class Wave_GameManager : MonoBehaviour
 
     public bool isUseCountTime;
     public static Wave_GameManager instance;
+    public ZEDManager zedManager;
+    public GameObject canvasVideo;
+    public GameObject canvasFloor;
     private void Awake()
     {
         if (instance == null) instance = this;
@@ -25,6 +28,8 @@ public class Wave_GameManager : MonoBehaviour
 
     void Start()
     {
+        zedManager.OnZEDReady += ZedManager_OnZEDReady;
+
         endHour = int.Parse(settings.timer.endHour);
         endMin = int.Parse(settings.timer.endtMin);
         endSec = int.Parse(settings.timer.endSec);
@@ -44,6 +49,17 @@ public class Wave_GameManager : MonoBehaviour
         Debug.Log($"Second : {secondEndHour}hour {secondEndMin}min {endSec}sec ");
 
 
+    }
+    private void OnDestroy()
+    {
+        zedManager.OnZEDReady -= ZedManager_OnZEDReady;
+
+    }
+
+    private void ZedManager_OnZEDReady()
+    {
+        canvasVideo.SetActive(true);
+       canvasFloor.SetActive(true);
     }
 
     DateTime now;

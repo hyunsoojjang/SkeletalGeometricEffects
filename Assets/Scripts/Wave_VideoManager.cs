@@ -6,6 +6,7 @@ using UnityEngine.Video;
 
 public class Wave_VideoManager : MonoBehaviour
 {
+  
     public VideoPlayer introVideo;
     public GameObject introRenderObj;
     public GameObject fadeObj;
@@ -13,6 +14,8 @@ public class Wave_VideoManager : MonoBehaviour
 
     public RawImage shoolCenterVideoRawimage;
 
+    public Dance_HumanChecker humanChecker;
+  
     void Start()
     {
         introVideo.loopPointReached += IntroVideo_loopPointReached;
@@ -34,12 +37,13 @@ public class Wave_VideoManager : MonoBehaviour
             else if (introVideo.isPaused) introVideo.Play();
 
         }
-        CheckingPlayer();
+        //CheckingPlayer();
+        CheckingPlayerbyZed();
     }
 
     float curT;
     public float userCheckingTime;
-    void CheckingPlayer()
+    void CheckingPlayerbyNuitrack()
     {
         if (NuitrackManager.Users.Count<1)
         {
@@ -53,6 +57,24 @@ public class Wave_VideoManager : MonoBehaviour
         else
         {
                 shoolCenterVideoRawimage.CrossFadeAlpha(0, 0.1f,false);
+
+            //StartCoroutine(nameof(ShowShoolCenter));
+        }
+    }
+    void CheckingPlayerbyZed()
+    {
+        if (!humanChecker.someoneinCenter)
+        {
+            curT += Time.deltaTime;
+            if (curT >= userCheckingTime)
+            {
+                shoolCenterVideoRawimage.CrossFadeAlpha(1, 2, true);
+                curT = 0;
+            }
+        }
+        else
+        {
+            shoolCenterVideoRawimage.CrossFadeAlpha(0, 0.1f, false);
 
             //StartCoroutine(nameof(ShowShoolCenter));
         }
