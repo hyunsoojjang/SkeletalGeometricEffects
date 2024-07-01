@@ -112,6 +112,7 @@ public class Wave_GameManager : MonoBehaviour
     public void EndSignals()
     {
         //Protocol.instance.SendDataToServer("FacadeEnd");
+        SendRequester.instance.EndZed();
         SendRequester.instance.SendRequeest();
 
     }

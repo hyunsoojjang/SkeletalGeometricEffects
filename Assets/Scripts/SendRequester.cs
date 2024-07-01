@@ -43,13 +43,29 @@ public class SendRequester : MonoBehaviour
 
     public bool nextIsContents;
 
-
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Alpha0))
+        {
+            EndZed();
+            StartCoroutine(nameof(SendEndGetRequest));
+        }
+    }
+    public GameObject zedrig;
+    public GameObject zedbody;
+    public void EndZed()
+    {
+        DestroyImmediate(zedrig);
+        DestroyImmediate(zedbody);
+    }
     public void SendRequeest()
     {
         StartCoroutine(nameof(SendEndGetRequest));
     }
     IEnumerator SendEndGetRequest()
     {
+        yield return new WaitForSeconds(0.5f);
+
         Debug.Log("SendENd in");
         string uri;
         if (nextIsContents) { uri = contentsUrl; }

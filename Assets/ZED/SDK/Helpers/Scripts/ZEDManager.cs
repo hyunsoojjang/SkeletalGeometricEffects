@@ -1951,7 +1951,7 @@ public class ZEDManager : MonoBehaviour
     private void OnApplicationQuit()
     {
         CloseManager();
-        //sl.ZEDCamera.UnloadPlugin();
+        sl.ZEDCamera.UnloadPlugin();
 
         //If this was the last camera to close, make sure all instances are closed.
         bool notlast = false;

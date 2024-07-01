@@ -58,89 +58,89 @@
   <ItemGroup>
     <Compile Include="Assets\NuitrackSDK\Avatar\Scripts\Editor\SkeletonMapper\SkeletonMapperListGUI.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\Editor\GUI\NuitrackSDKEditor.cs" />
-    <Compile Include="Assets\PostProcessing\Editor\PropertyDrawers\GetSetDrawer.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\UserManager\Editor\TrackedUserEditor.cs" />
     <Compile Include="Assets\Editor\PackageTool.cs" />
-    <Compile Include="Assets\NuitrackSDK\Avatar\Scripts\Editor\SkeletonMapper\SkeletonUtils.cs" />
-    <Compile Include="Assets\PostProcessing\Editor\Models\DepthOfFieldModelEditor.cs" />
     <Compile Include="Assets\Skinner\Editor\SkinnerDebugEditor.cs" />
-    <Compile Include="Assets\PostProcessing\Editor\PropertyDrawers\MinDrawer.cs" />
     <Compile Include="Assets\NuitrackSDK\PoseDetector\Scripts\Editor\SkeletonPoseView.cs" />
     <Compile Include="Assets\Skinner\Editor\SkinnerModelEditor.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Models\VignetteModelEditor.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\Editor\Wizards\Wizard.cs" />
     <Compile Include="Assets\Skinner\Editor\SkinnerGlitchTemplateEditor.cs" />
     <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Editor\ReporterEditor.cs" />
-    <Compile Include="Assets\neoAvatar\Editor\Selector.cs" />
     <Compile Include="Assets\ZED\Editor\Scripts\ZEDPluginInspector.cs" />
     <Compile Include="Assets\Skinner\Editor\SkinnerSourceEditor.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\Editor\GUI\NuitrackManagerEditor.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Models\MotionBlurModelEditor.cs" />
+    <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\Editor\Wizards\ProblemWizard\NuitrackProblemWizard.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Models\UserLutModelEditor.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Models\AntialiasingModelEditor.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Utils\EditorGUIHelper.cs" />
+    <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\Editor\ErrorSolver\NuitrackChecker.cs" />
+    <Compile Include="Assets\Skinner\Editor\SkinnerTrailEditor.cs" />
+    <Compile Include="Assets\NuitrackSDK\PoseDetector\Scripts\Editor\PoseDetectorEditor.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Utils\EditorResources.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Models\BloomModelEditor.cs" />
+    <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\Editor\NuitrackMenu.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Monitors\HistogramMonitor.cs" />
+    <Compile Include="Assets\NuitrackSDK\PoseDetector\Scripts\Editor\NuitrackPreviewStage.cs" />
+    <Compile Include="Assets\NuitrackSDK\PoseDetector\Scripts\Editor\NuitrackPoseWrapper.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Models\ScreenSpaceReflectionModelEditor.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Models\BuiltinDebugViewsEditor.cs" />
+    <Compile Include="Assets\ZED\Editor\Scripts\RenderingPipelineDefines.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
+    <Compile Include="Assets\NuitrackSDK\Avatar\Scripts\Editor\SkeletonMapper\SkeletonMapperGUI.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\PostProcessingModelEditor.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Models\GrainModelEditor.cs" />
+    <Compile Include="Assets\NuitrackSDK\Frame\Croppers\Scripts\Editor\CropperEditor.cs" />
+    <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\Editor\Wizards\ActivationWizard\NuitrackActivationWizard.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\PostProcessingBehaviourEditor.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Models\EyeAdaptationModelEditor.cs" />
+    <Compile Include="Assets\GeoFx\Editor\SkeletonEditor.cs" />
+    <Compile Include="Assets\NuitrackSDK\Frame\Scripts\UI\Editor\NuitrackAspectRatioFitterEditor.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Models\FogModelEditor.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Monitors\WaveformMonitor.cs" />
+    <Compile Include="Assets\NuitrackSDK\Documentation\Editor\NuitrackTutorialsEditorWindow.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Models\ChromaticAberrationEditor.cs" />
+    <Compile Include="Assets\NuitrackSDK\Documentation\Editor\NuitrackTutorials.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\PropertyDrawers\GetSetDrawer.cs" />
+    <Compile Include="Assets\NuitrackSDK\Avatar\Scripts\Editor\SkeletonMapper\SkeletonUtils.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Models\DepthOfFieldModelEditor.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\PropertyDrawers\MinDrawer.cs" />
+    <Compile Include="Assets\neoAvatar\Editor\Selector.cs" />
     <Compile Include="Assets\NuitrackSDK\Avatar\Scripts\Editor\SkeletonMapper\SkeletonMapper.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Utils\FxStyles.cs" />
-    <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\Editor\Wizards\ProblemWizard\NuitrackProblemWizard.cs" />
     <Compile Include="Assets\PostProcessing\Editor\PostProcessingInspector.cs" />
-    <Compile Include="Assets\PostProcessing\Editor\Models\UserLutModelEditor.cs" />
     <Compile Include="Assets\NuitrackSDK\Frame\Scripts\Editor\FrameMixerEditor.cs" />
-    <Compile Include="Assets\PostProcessing\Editor\Models\AntialiasingModelEditor.cs" />
     <Compile Include="Assets\NuitrackSDK\SensorEnvironment\SensorSpace\Editor\SensorSpace_Editor.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\Editor\ErrorSolver\SwitchDll.cs" />
     <Compile Include="Assets\NuitrackSDK\Avatar\Scripts\Editor\SkeletonMapper\SkeletonStyles.cs" />
-    <Compile Include="Assets\PostProcessing\Editor\Utils\EditorGUIHelper.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\Editor\PortableActivation.cs" />
-    <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\Editor\ErrorSolver\NuitrackChecker.cs" />
     <Compile Include="Assets\NuitrackSDK\Avatar\Scripts\Editor\BaseAvatarEditor.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Monitors\ParadeMonitor.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Models\DefaultPostFxModelEditor.cs" />
     <Compile Include="Assets\ZED\Examples\Green Screen\Editor\GreenScreenEditor.cs" />
-    <Compile Include="Assets\Skinner\Editor\SkinnerTrailEditor.cs" />
-    <Compile Include="Assets\NuitrackSDK\PoseDetector\Scripts\Editor\PoseDetectorEditor.cs" />
-    <Compile Include="Assets\PostProcessing\Editor\Utils\EditorResources.cs" />
     <Compile Include="Assets\PostProcessing\Editor\PostProcessingMonitor.cs" />
-    <Compile Include="Assets\PostProcessing\Editor\Models\BloomModelEditor.cs" />
     <Compile Include="Assets\PostProcessing\Editor\PropertyDrawers\TrackballGroupDrawer.cs" />
-    <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\Editor\NuitrackMenu.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />
-    <Compile Include="Assets\PostProcessing\Editor\Monitors\HistogramMonitor.cs" />
-    <Compile Include="Assets\NuitrackSDK\PoseDetector\Scripts\Editor\NuitrackPreviewStage.cs" />
     <Compile Include="Assets\NuitrackSDK\Avatar\3D Avatar\Scripts\Editor\NuitrackAvatarEditor.cs" />
     <Compile Include="Assets\NuitrackSDK\PoseDetector\Scripts\Editor\NuitrackPoseEditor.cs" />
     <Compile Include="Assets\Skinner\Editor\SkinnerTrailTemplateEditor.cs" />
-    <Compile Include="Assets\NuitrackSDK\PoseDetector\Scripts\Editor\NuitrackPoseWrapper.cs" />
     <Compile Include="Assets\ZED\Editor\Scripts\ZEDCameraEditor.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\Editor\GUI\NuitrackEditorHelper.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\Editor\PostprocessBuild.cs" />
     <Compile Include="Assets\PostProcessing\Editor\PostProcessingFactory.cs" />
-    <Compile Include="Assets\PostProcessing\Editor\Models\ScreenSpaceReflectionModelEditor.cs" />
-    <Compile Include="Assets\PostProcessing\Editor\Models\BuiltinDebugViewsEditor.cs" />
     <Compile Include="Assets\Klak\Motion\Editor\SmoothFollowEditor.cs" />
-    <Compile Include="Assets\ZED\Editor\Scripts\RenderingPipelineDefines.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
-    <Compile Include="Assets\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
-    <Compile Include="Assets\NuitrackSDK\Avatar\Scripts\Editor\SkeletonMapper\SkeletonMapperGUI.cs" />
     <Compile Include="Assets\NuitrackSDK\Documentation\Editor\NuitrackTutorialsEditor.cs" />
     <Compile Include="Assets\Skinner\Editor\SkinnerGlitchEditor.cs" />
-    <Compile Include="Assets\PostProcessing\Editor\PostProcessingModelEditor.cs" />
-    <Compile Include="Assets\PostProcessing\Editor\Models\GrainModelEditor.cs" />
-    <Compile Include="Assets\NuitrackSDK\Frame\Croppers\Scripts\Editor\CropperEditor.cs" />
     <Compile Include="Assets\ZED\Editor\Scripts\UpgradePluginToSRP.cs" />
-    <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\Editor\Wizards\ActivationWizard\NuitrackActivationWizard.cs" />
-    <Compile Include="Assets\PostProcessing\Editor\PostProcessingBehaviourEditor.cs" />
-    <Compile Include="Assets\PostProcessing\Editor\Models\EyeAdaptationModelEditor.cs" />
     <Compile Include="Assets\NuitrackSDK\Frame\Blur\Scripts\Editor\BlurEditor.cs" />
-    <Compile Include="Assets\GeoFx\Editor\SkeletonEditor.cs" />
-    <Compile Include="Assets\NuitrackSDK\Frame\Scripts\UI\Editor\NuitrackAspectRatioFitterEditor.cs" />
-    <Compile Include="Assets\PostProcessing\Editor\Models\FogModelEditor.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\Editor\Wizards\ProblemWizard\LogGrabber.cs" />
     <Compile Include="Assets\NuitrackSDK\Avatar\Scripts\Editor\SkeletonMapper\SkeletonBonesView.cs" />
-    <Compile Include="Assets\PostProcessing\Editor\Monitors\WaveformMonitor.cs" />
-    <Compile Include="Assets\NuitrackSDK\Documentation\Editor\NuitrackTutorialsEditorWindow.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\Editor\GUI\NuitrackSDKGUI.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\CalibrationRotationScripts\Editor\CalibrationHandlerEditor.cs" />
-    <Compile Include="Assets\PostProcessing\Editor\Models\ChromaticAberrationEditor.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Models\DitheringModelEditor.cs" />
     <Compile Include="Assets\Skinner\Editor\SkinnerParticleEditor.cs" />
-    <Compile Include="Assets\NuitrackSDK\Documentation\Editor\NuitrackTutorials.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Monitors\VectorscopeMonitor.cs" />
     <Compile Include="Assets\Skinner\Editor\SkinnerParticleTemplateEditor.cs" />
     <Compile Include="Assets\NuitrackSDK\Frame\Scripts\Editor\FrameProviderEditor.cs" />
@@ -380,6 +380,9 @@
     </Reference>
     <Reference Include="nuitrack.net">
       <HintPath>Assets\NuitrackSDK\Nuitrack\NuitrackAssembly\nuitrack.net.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.NRefactory">
+      <HintPath>Library\PackageCache\com.unity.render-pipelines.core@10.10.1\Editor\ShaderGenerator\ICSharpCode.NRefactory.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -744,6 +747,12 @@
     <Reference Include="Unity.2D.Tilemap.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
@@ -759,8 +768,14 @@
     <Reference Include="Klak.Spout.Runtime">
       <HintPath>Library\ScriptAssemblies\Klak.Spout.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Searcher.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
@@ -770,6 +785,9 @@
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
@@ -783,8 +801,14 @@
     <Reference Include="Klak.Wiring.Editor">
       <HintPath>Library\ScriptAssemblies\Klak.Wiring.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+    </Reference>
     <Reference Include="JP.Keijiro.CMUMocap.Editor">
       <HintPath>Library\ScriptAssemblies\JP.Keijiro.CMUMocap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
     <Reference Include="JP.Keijiro.TestAssets.Editor">
       <HintPath>Library\ScriptAssemblies\JP.Keijiro.TestAssets.Editor.dll</HintPath>
@@ -792,11 +816,20 @@
     <Reference Include="Unity.Postprocessing.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Kino.Postprocessing">
       <HintPath>Library\ScriptAssemblies\Kino.Postprocessing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
       <HintPath>Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
@@ -809,6 +842,9 @@
     </Reference>
     <Reference Include="Unity.XR.Management">
       <HintPath>Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Klak.Motion.Editor">
       <HintPath>Library\ScriptAssemblies\Klak.Motion.Editor.dll</HintPath>
@@ -827,6 +863,9 @@
     </Reference>
     <Reference Include="Klak.Math.Editor">
       <HintPath>Library\ScriptAssemblies\Klak.Math.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
