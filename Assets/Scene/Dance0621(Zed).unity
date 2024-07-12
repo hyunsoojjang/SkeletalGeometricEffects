@@ -9313,7 +9313,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4329734432191940, guid: 76db3eb81fd21ae45bab5204e324ae42, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10
+      value: 9.73
       objectReference: {fileID: 0}
     - target: {fileID: 4329734432191940, guid: 76db3eb81fd21ae45bab5204e324ae42, type: 3}
       propertyPath: m_LocalPosition.z
@@ -12444,7 +12444,7 @@ PrefabInstance:
     - target: {fileID: 6327103935139800441, guid: ca18a88838151284380d84fc86d327e5,
         type: 3}
       propertyPath: enableFootLocking
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6327103935139800441, guid: ca18a88838151284380d84fc86d327e5,
         type: 3}
